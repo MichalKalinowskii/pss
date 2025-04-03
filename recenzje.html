@@ -4,48 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal dla graczy - Recenzje</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav aria-label="Menu główne">
-            <ul>
-                <li><a href="index.html">Strona główna</a></li>
-                <li><a href="aktualnosci.html">Aktualności</a></li>
-                <li><a href="recenzje.html" aria-current="page">Recenzje</a></li>
-                <li><a href="poradniki.html">Poradniki</a></li>
+<header class="bg-dark text-white py-3">
+    <nav class="navbar navbar-expand-lg navbar-dark container">
+        <a class="navbar-brand" href="index.html">Portal dla Graczy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Strona główna</a></li>
+                <li class="nav-item"><a class="nav-link" href="aktualnosci.html">Aktualności</a></li>
+                <li class="nav-item"><a class="nav-link active" href="recenzje.html" aria-current="page">Recenzje</a></li>
+                <li class="nav-item"><a class="nav-link" href="poradniki.html">Poradniki</a></li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
+</header>
 
-    <main>
-        <section aria-labelledby="reviews-heading">
-            <h1 id="reviews-heading">Recenzje gier</h1>
-            <article>
+<main id="main-content" class="container my-4">
+    <section aria-labelledby="reviews-heading">
+        <h1 id="reviews-heading" class="mb-4">Recenzje gier</h1>
+        <div class="row">
+            <article tabindex="0" class="col-xs-12">
                 <h3>Tytuł recenzji 1</h3>
-                <p>Ocena: 9/10</p>
+                <p><strong>Ocena:</strong> 9/10</p>
                 <p>Opis recenzji 1. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#">Czytaj więcej</a>
+                <a href="#" class="btn btn-primary" aria-label="Czytaj więcej o Tytuł recenzji 1">Czytaj więcej</a>
             </article>
-            <article>
+            <article tabindex="0" class="col-xs-12">
                 <h3>Tytuł recenzji 2</h3>
-                <p>Ocena: 7/10</p>
+                <p><strong>Ocena:</strong> 7/10</p>
                 <p>Opis recenzji 2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <a href="#">Czytaj więcej</a>
+                <a href="#" class="btn btn-primary" aria-label="Czytaj więcej o Tytuł recenzji 2">Czytaj więcej</a>
             </article>
-            <article>
+            <article tabindex="0" class="col-xs-12">
                 <h3>Tytuł recenzji 3</h3>
-                <p>Ocena: 8/10</p>
+                <p><strong>Ocena:</strong> 8/10</p>
                 <p>Opis recenzji 3. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <a href="#">Czytaj więcej</a>
+                <a href="#" class="btn btn-primary" aria-label="Czytaj więcej o Tytuł recenzji 3">Czytaj więcej</a>
             </article>
-        </section>
-    </main>
+        </div>
+    </section>
+</main>
 
-    <footer>
-        <p>&copy; 2025 Portal dla graczy. Wszelkie prawa zastrzeżone.</p>
-    </footer>
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Portal dla graczy. Wszelkie prawa zastrzeżone.</p>
+</footer>
 
-    <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
