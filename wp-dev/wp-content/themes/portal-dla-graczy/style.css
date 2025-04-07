@@ -1,0 +1,127 @@
+/*
+Theme Name: Portal dla Graczy
+Theme URI: https://example.com/portal-dla-graczy-theme
+Author: Twoje Imię / Nazwa Firmy
+Author URI: https://example.com
+Description: Motyw dla portalu dla graczy, stworzony na podstawie statycznych plików HTML. Wykorzystuje Bootstrap 5.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: bootstrap, games, news, responsive-layout, custom-menu
+Text Domain: portal-dla-graczy
+*/
+
+/* === Początek skopiowanych stylów z oryginalnego style.css === */
+/* UWAGA: Usunięto @import dla Bootstrapa - będzie dodany przez functions.php */
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Upewnij się, że #main-content rozciąga się */
+#main-content {
+    flex: 1;
+}
+
+header {
+    /* Usunięto padding - Bootstrap dodaje go do .py-3 */
+    /* background-color: #333; */ /* Klasa bg-dark z Bootstrapa to załatwia */
+    /* color: #fff; */ /* Klasa text-white z Bootstrapa to załatwia */
+}
+
+/* Style nawigacji można uprościć, polegając na Bootstrapie */
+/* nav ul { ... } */
+/* nav li { ... } */
+/* nav a { ... } */
+
+nav a:focus, nav a:hover {
+    text-decoration: underline;
+}
+
+/* Dostosowanie 'main' - polegamy na klasie .container Bootstrapa */
+/* main { max-width: 800px; margin: 2rem auto; padding: 1rem; } */
+
+section {
+    margin-bottom: 2rem;
+}
+
+article {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem; /* Upewnij się, że jest odstęp */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, outline 0.3s; /* Dla focus */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Poprawa kontrastu */
+header.bg-dark, footer.bg-dark {
+    background-color: #222 !important; /* Użyj !important jeśli Bootstrap nadpisuje */
+}
+
+a:focus, button:focus {
+    outline: 3px solid #ffcc00;
+    outline-offset: 3px;
+    /* Bootstrap może dodawać własny box-shadow on focus, można go usunąć jeśli przeszkadza */
+    /* box-shadow: none; */
+}
+
+.navbar {
+    /* padding: 1rem; */ /* Już jest w klasach Bootstrapa py-3/px-?) */
+}
+
+footer { /* Używamy klas Bootstrapa */
+ /* text-align: center; */ /* Klasa text-center */
+ /* padding: 1rem; */ /* Klasa py-3 */
+}
+
+/* Link pomijania nawigacji (jeśli chcesz dodać) */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #007bff;
+    color: #fff;
+    padding: 8px;
+    z-index: 1000; /* Wyżej niż navbar Bootstrapa */
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* Styl dla focus na artykule (działa z tabindex="0") */
+main article:focus {
+    outline: 3px solid #007bff;
+    background-color: #f0f0f0;
+}
+
+/* Style dla aktywnego elementu menu (WordPress dodaje klasy .current-menu-item lub .current-page-item do LI) */
+.navbar-nav .current-menu-item > a,
+.navbar-nav .current-page-item > a,
+.navbar-nav .nav-item.active > a { /* Fallback dla Bootstrapowej klasy 'active' jeśli jest używana */
+    font-weight: bold; /* Przykładowe wyróżnienie */
+    /* Możesz też użyć `text-decoration: underline;` lub zmienić kolor */
+}
+
+
+/* === Koniec skopiowanych stylów === */
