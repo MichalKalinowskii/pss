@@ -1,11 +1,6 @@
 version: "3.6"
 services:
 
-  pss:
-    build: .
-    image: sawczenko/pss:latest
-    ports:
-      - "5000:5000"
   wordpress:
     image: wordpress:latest
     container_name: wordpress
@@ -28,15 +23,11 @@ services:
     image: mariadb:latest
     container_name: db
     volumes:
+      - ./dump/dump.sql:/docker-entrypoint-initdb.d/dump.sql
       - db_data:/var/lib/mysql
-      # This is optional!!!
-      - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
-      # # #
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=root
-      - MYSQL_DATABASE=wordpress
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: wordpress
     restart: always
 
   phpmyadmin:
@@ -49,7 +40,7 @@ services:
       - 8180:80
     environment:
       PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: root
 
 volumes:
   db_data:
