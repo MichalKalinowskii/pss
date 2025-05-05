@@ -1,15 +1,15 @@
-# Translation of WordPress - 6.7.x - Development - Administration - Network Admin in Polish
-# This file is distributed under the same license as the WordPress - 6.7.x - Development - Administration - Network Admin package.
+# Translation of WordPress - 6.8.x - Development - Administration - Network Admin in Polish
+# This file is distributed under the same license as the WordPress - 6.8.x - Development - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-07-16 06:36:30+0000\n"
+"PO-Revision-Date: 2025-03-31 17:22:17+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
 "X-Generator: GlotPress/4.0.1\n"
 "Language: pl\n"
-"Project-Id-Version: WordPress - 6.7.x - Development - Administration - Network Admin\n"
+"Project-Id-Version: WordPress - 6.8.x - Development - Administration - Network Admin\n"
 
 #: wp-admin/network/upgrade.php:32
 msgid "<a href=\"https://developer.wordpress.org/advanced-administration/multisite/admin/#network-admin-updates-screen\">Documentation on Upgrade Network</a>"
@@ -106,12 +106,12 @@ msgid "You should back up your existing %1$s and %2$s files."
 msgstr "Należy utworzyć kopię plików %1$s i %2$s."
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:738
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:744
 msgid "Visit theme site for %s"
 msgstr "Odwiedź witrynę motywu %s"
 
 #. translators: %s: Theme name.
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:751
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:757
 msgid "Child theme of %s"
 msgstr "Motyw potomny motywu %s"
 
@@ -257,7 +257,7 @@ msgstr "Instalacja sub-domenowa."
 msgid "Sub-directory Installation"
 msgstr "Instalacja podkatalogowa"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:944
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:950
 msgid "Active Child Theme"
 msgstr "Aktywny motyw potomny"
 
@@ -401,7 +401,7 @@ msgctxt "user"
 msgid "Mark as spam"
 msgstr "Oznacz jako spam"
 
-#: wp-admin/includes/class-wp-ms-themes-list-table.php:744
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:750
 msgid "Visit Theme Site"
 msgstr "Odwiedź witrynę motywu"
 
@@ -541,7 +541,7 @@ msgstr "Spam"
 msgid "Archived"
 msgstr "Zarchiwizowano"
 
-#: wp-admin/network/site-users.php:373 wp-admin/network/user-new.php:149
+#: wp-admin/network/site-users.php:376 wp-admin/network/user-new.php:149
 msgid "A password reset link will be sent to the user via email."
 msgstr "Odnośnik resetujący hasło zostanie wysłany do użytkownika emailem."
 
@@ -803,7 +803,7 @@ msgstr "Witaj w Administracji Siecią Witryn. Znajdujesz się w miejscu z które
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Upgrade Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
 msgstr "Używaj tej funkcjonalność tylko po aktualizacji do nowej wersji WordPressa poprzez Aktualizacje/Dostępne aktualizacje (za pomocą menu nawigacyjnego administratora sieci witryn lub paska narzędzi). Kliknięcie przycisku „Uaktualnij sieć” spowoduje przejście przez każdą witrynę w sieci, żeby zaktualizować bazę danych witryny."
 
-#: wp-admin/network/menu.php:46 wp-admin/network/upgrade.php:16
+#: wp-admin/network/menu.php:51 wp-admin/network/upgrade.php:16
 #: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:145
 msgid "Upgrade Network"
 msgstr "Aktualizuj Sieć Witryn"
@@ -822,8 +822,8 @@ msgid "Language Settings"
 msgstr "Ustawienia językowe"
 
 #: wp-admin/network/settings.php:253
-msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page"
-msgstr "Pozwól administratorom witryn dodawać nowych użytkowników do witryn poprzez ekran &#8222;Użytkownicy &rarr; Dodaj nowego&#8221;."
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add User\" page"
+msgstr "Pozwól administratorom witryn dodawać nowych użytkowników do witryn poprzez ekran &#8222;Użytkownicy &rarr; Dodaj użytkownika&#8221;."
 
 #: wp-admin/network/settings.php:58
 msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Network Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
@@ -947,12 +947,12 @@ msgid "An Edit link to a separate Edit Site screen."
 msgstr "Odnośnik &#8222;Edytuj&#8221; przenoszący na osobny ekran edycji witryny."
 
 #: wp-admin/network/sites.php:31
-msgid "Add New Site takes you to the screen for adding a new site to the network. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
-msgstr "Kliknięcie przycisku &#8222;Dodaj nową&#8221; przeniesie Cię do ekranu dodawania nowej witryny. Możesz przeszukać witryny pod kątem nazwy, identyfikatora lub adresu IP.  Opcje ekranu pozwalają na wybór ilości witryn wyświetlanych na jednej stronie."
+msgid "Add Site takes you to the screen for adding a new site to the network. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
+msgstr "Opcja dodaj witrynę umożliwia przejście do ekranu dodawania nowej witryny do sieci. Możesz wyszukać witrynę według nazwy, identyfikatora lub adresu IP. Opcje ekranu pozwalają wybrać, ile witryn ma być wyświetlanych na jednej stronie."
 
-#: wp-admin/network/site-users.php:336 wp-admin/network/user-new.php:161
-msgid "Add User"
-msgstr "Dodaj użytkownika"
+#: wp-admin/network/settings.php:251
+msgid "Add Users"
+msgstr "Dodaj użytkowników"
 
 #: wp-admin/network/user-new.php:55
 msgid "Cannot add user."
@@ -962,19 +962,19 @@ msgstr "Nie można dodać użytkownika."
 msgid "Add User will set up a new user account on the network and send that person an email with username and password."
 msgstr "Dodanie użytkownika spowoduje utworzenie nowego konta w sieci witryn i wysłanie na podany adres email wiadomości z nazwą i hasłem."
 
-#: wp-admin/network/menu.php:41
+#: wp-admin/network/menu.php:46
 msgid "Updates"
 msgstr "Aktualizacje"
 
-#: wp-admin/network/menu.php:111 wp-admin/network/settings.php:21
+#: wp-admin/network/menu.php:116 wp-admin/network/settings.php:21
 msgid "Network Settings"
 msgstr "Ustawienia sieci"
 
-#: wp-admin/network/menu.php:80
+#: wp-admin/network/menu.php:85
 msgid "Installed Themes"
 msgstr "Zainstalowane motywy"
 
-#: wp-admin/network/menu.php:52
+#: wp-admin/network/menu.php:57
 msgid "All Sites"
 msgstr "Wszystkie witryny"
 
@@ -1077,8 +1077,8 @@ msgid "Welcome to the Network installation process!"
 msgstr "Witamy w instalatorze sieci witryn!"
 
 #: wp-admin/includes/network.php:161
-msgid "Error: The network could not be created."
-msgstr "Błąd: Sieć witryn nie mogła zostać stworzona."
+msgid "The network could not be created."
+msgstr "Błąd: Nie można było utworzyć sieci witryn."
 
 #: wp-admin/includes/network.php:146
 msgid "Once the network is created, you may reactivate your plugins."
@@ -1392,7 +1392,9 @@ msgstr "Jeżeli wprowadzonego adresu e-mail nie ma w bazie danych, to zostanie u
 msgid "Admin Email"
 msgstr "Adres e-mail administratora"
 
-#: wp-admin/network/site-new.php:299
+#: wp-admin/network/menu.php:58 wp-admin/network/site-new.php:182
+#: wp-admin/network/site-new.php:192 wp-admin/network/site-new.php:299
+#: wp-admin/network/sites.php:391
 msgid "Add Site"
 msgstr "Dodaj witrynę"
 
@@ -1444,9 +1446,9 @@ msgstr "Dozwolone domeny adresów e-mail"
 msgid "Banned Names"
 msgstr "Zakazane nazwy"
 
-#: wp-admin/network/settings.php:251
-msgid "Add New Users"
-msgstr "Dodawanie nowych użytkowników"
+#: wp-admin/network/site-users.php:353
+msgid "Add New User"
+msgstr "Utwórz użytkownika"
 
 #: wp-admin/network/settings.php:239
 msgid "Registration notification"

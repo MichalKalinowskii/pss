@@ -1,0 +1,2511 @@
+# Translation of Plugins - WP 2FA &#8211; Two-factor authentication for WordPress - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - WP 2FA &#8211; Two-factor authentication for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-12-03 12:56:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - WP 2FA &#8211; Two-factor authentication for WordPress - Stable (latest release)\n"
+
+#: includes/classes/class-wp2fa.php:159
+#: includes/classes/Utils/class-white-label.php:148
+msgid "Click the below button to {reconfigure_or_configure} the email address where the link should be sent."
+msgstr "Kliknij poniższy przycisk, aby {reconfigure_or_configure} adres e-mail, na który ma zostać wysłany link."
+
+#: includes/classes/class-wp2fa.php:158
+#: includes/classes/Utils/class-white-label.php:147
+msgid "The Yubico service you want to use is currently unavailable. Please try again later or restart the wizard to choose another method."
+msgstr "Usługa Yubico, z której chcesz skorzystać, jest obecnie niedostępna. Spróbuj ponownie później lub uruchom ponownie kreatora, aby wybrać inną metodę."
+
+#: includes/classes/class-wp2fa.php:158
+#: includes/classes/Utils/class-white-label.php:147
+msgid " {reconfigure_or_configure_capitalized} 2FA over YubiKey"
+msgstr " {reconfigure_or_configure_capitalized} 2FA przez YubiKey"
+
+#: includes/classes/class-wp2fa.php:155
+#: includes/classes/Utils/class-white-label.php:144
+msgid "Click the below button to {reconfigure_or_configure} the YubiKey associated with your user."
+msgstr "Kliknij poniższy przycisk, aby {reconfigure_or_configure} klucz YubiKey powiązany z użytkownikiem."
+
+#: includes/classes/class-wp2fa.php:155
+#: includes/classes/Utils/class-white-label.php:144
+msgid "{reconfigure_or_configure_capitalized} 2FA over YubiKey"
+msgstr "{reconfigure_or_configure_capitalized} 2FA przez YubiKey"
+
+#: includes/classes/class-wp2fa.php:154
+#: includes/classes/Utils/class-white-label.php:143
+msgid "{reconfigure_or_configure_capitalized} SMS method (Clickatell)"
+msgstr "{reconfigure_or_configure_capitalized} Metoda SMS (Clickatell)"
+
+#: includes/classes/class-wp2fa.php:153
+#: includes/classes/Utils/class-white-label.php:142
+msgid "Click the below button to {reconfigure_or_configure} the mobile phone number where the one-time code should be sent."
+msgstr "Kliknij poniższy przycisk, aby {reconfigure_or_configure} numer telefonu komórkowego, na który ma zostać wysłany kod jednorazowy."
+
+#: includes/classes/class-wp2fa.php:153
+#: includes/classes/Utils/class-white-label.php:142
+msgid "{reconfigure_or_configure_capitalized} SMS method (Twilio)"
+msgstr "{reconfigure_or_configure_capitalized} Metoda SMS (Twilio)"
+
+#: includes/classes/class-wp2fa.php:151
+#: includes/classes/Utils/class-white-label.php:140
+msgid "Click the below button to {reconfigure_or_configure} the push notifications configuration."
+msgstr "Kliknij poniższy przycisk, aby {reconfigure_or_configure}} konfigurację powiadomień push."
+
+#: includes/classes/class-wp2fa.php:143
+#: includes/classes/Utils/class-white-label.php:132
+msgid "Touch the YubiKey again to generate the OTP code to confirm the setup. Once the code is populated below, it should be automatically saved and verified. If that does not happen by any reason, once the secret key was pasted, click \"Validate & save\" button below to manually save and complete the configuration."
+msgstr "Dotknij ponownie YubiKey, aby wygenerować kod OTP w celu potwierdzenia konfiguracji. Po wprowadzeniu kodu poniżej, powinien on zostać automatycznie zapisany i zweryfikowany. Jeśli z jakiegoś powodu tak się nie stanie, po wklejeniu prywatnego klucza kliknij przycisk \"Zatwierdź i zapisz\" poniżej, aby ręcznie zapisać i zakończyć konfigurację."
+
+#: includes/classes/class-wp2fa.php:138
+#: includes/classes/Utils/class-white-label.php:127
+msgid "2 - Touch / press the button on your YubiKey to generate the OTP code, which is automatically populated below"
+msgstr "2 - Dotknij / naciśnij przycisk na swoim YubiKey, aby wygenerować kod OTP, który jest automatycznie wypełniany poniżej"
+
+#: includes/classes/class-wp2fa.php:138
+#: includes/classes/Utils/class-white-label.php:127
+msgid "1 - Insert your YubiKey into the computer's / mobile's USB port"
+msgstr "1 - Podłącz klawiaturę YubiKey do portu USB komputera/telefonu komórkowego"
+
+#: includes/classes/class-wp2fa.php:138
+#: includes/classes/Utils/class-white-label.php:127
+msgid "Setting up 2FA with YubiKey"
+msgstr "Konfiguracja uwierzytelniania dwuskładnikowego (2FA) za pomocą YubiKey"
+
+#: includes/classes/class-wp2fa.php:121
+#: includes/classes/Utils/class-white-label.php:107
+msgid "Please insert the YubiKey in a USB port and touch / click the button on the YubiKey to generate the OTP required to log in."
+msgstr "Włóż klucz YubiKey do portu USB i dotknij/kliknij przycisk na kluczu YubiKey, aby wygenerować kod OTP wymagany do zalogowania."
+
+#: includes/classes/Admin/Views/class-re-login-2fa.php:148
+msgid "When you enable this setting users will be logged out automatically after configuring 2FA and they will need to log back in."
+msgstr "Gdy włączysz to ustawienie, użytkownicy będą automatycznie wylogowywani po skonfigurowaniu 2FA i będą musieli zalogować się ponownie."
+
+#: includes/classes/Admin/Views/class-re-login-2fa.php:146
+msgid "Do you want to logout users after setting up 2FA on their account?"
+msgstr "Czy chcesz wylogować użytkowników po skonfigurowaniu 2FA na ich koncie?"
+
+#: includes/classes/Admin/Views/class-re-login-2fa.php:89
+msgid "Log out user after 2FA setup"
+msgstr "Wyloguj użytkownika po skonfigurowaniu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/Methods/class-totp.php:328
+msgid "Setting up TOTP (one-time code via app)"
+msgstr "Konfiguracja TOTP (jednorazowy kod za pośrednictwem aplikacji)"
+
+#: includes/classes/Admin/Methods/class-totp.php:130
+msgid "TOTP (one-time code via app)"
+msgstr "TOTP (jednorazowy kod za pośrednictwem aplikacji)"
+
+#: includes/classes/Admin/Methods/class-email.php:146
+msgid "Click the below button to {reconfigure_or_configure} the email address where the one-time code should be sent."
+msgstr "Kliknij poniższy przycisk, aby {reconfigure_or_configure} adres e-mail, na który ma zostać wysłany kod jednorazowy."
+
+#: includes/classes/Admin/Methods/class-email.php:142
+msgid "Setting up HOTP (one-time code via email)"
+msgstr "Konfiguracja HOTP (jednorazowy kod przesłany pocztą elektroniczną)"
+
+#: includes/classes/Admin/class-premium-features.php:313
+msgid "One-click 2FA login (via link in email)"
+msgstr "Logowanie uwierzytelniania dwuskładnikowego (2FA) jednym kliknięciem (przez odnośnik w wiadomości e-mail)"
+
+#: includes/classes/Admin/class-premium-features.php:301
+msgid "2FA Login with SMS (with Twilio or Clickatell)"
+msgstr "Logowanie uwierzytelniania dwuskładnikowego (2FA) za pomocą SMS (z Twilio lub Clickatell)"
+
+#: includes/classes/Admin/class-premium-features.php:279
+msgid "2FA login with hardware key (YubiKey)"
+msgstr "Logowanie 2FA za pomocą klucza sprzętowego (YubiKey)"
+
+#: includes/classes/Admin/Views/class-re-login-2fa.php:154
+msgid "Re-login"
+msgstr "Ponowne logowanie"
+
+#: includes/classes/Admin/Methods/class-email.php:144
+msgid "IMPORTANT"
+msgstr "WAŻNE"
+
+#: includes/classes/Admin/class-premium-features.php:412
+msgid "Export/import plugin settings"
+msgstr "Eksportuj/importuj ustawienia wtyczki"
+
+#: includes/classes/Admin/class-plugin-updated-notice.php:128
+msgid "Complete."
+msgstr "Uzupełnij."
+
+#: includes/classes/Admin/class-plugin-updated-notice.php:123
+msgid "Nonce Verification Failed."
+msgstr "Weryfikacja kodu jednorazowego nie powiodła się."
+
+#. translators: %s: version number.
+#: includes/classes/Admin/class-plugin-updated-notice.php:51
+msgid "Release notes"
+msgstr "Informacje o wydaniu"
+
+#. translators: %s: version number.
+#: includes/classes/Admin/class-plugin-updated-notice.php:51
+msgid "This is version %s. Check out the release notes to see what is new and improved in this update."
+msgstr "To jest wersja %s. Sprawdź informacje o wydaniu, aby dowiedzieć się, co nowego i ulepszonego wprowadzono w tej aktualizacji."
+
+#. translators: %s: version number.
+#: includes/classes/Admin/class-plugin-updated-notice.php:51
+msgid "Thank you for updating WP 2FA."
+msgstr "Dziękujemy za aktualizację WP 2FA."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:117
+msgid "Use the email address "
+msgstr "Użyj adresu e-mail "
+
+#: includes/classes/Admin/class-settings-page.php:509
+msgid "Keep using it"
+msgstr "Używaj go dalej"
+
+#: includes/classes/Admin/class-settings-page.php:507
+msgid "Change it"
+msgstr "Zmień to"
+
+#: includes/classes/Admin/class-settings-page.php:505
+msgid "as the \"from address\" when sending emails with the 2FA code for users to log in. Do you want to keep using this or change it?"
+msgstr "jako \"adres od\" podczas wysyłania wiadomości e-mail z kodem uwierzytelniania dwuskładnikowego (2FA) do logowania użytkowników. Czy chcesz nadal używać tego adresu, czy go zmienić?"
+
+#: includes/classes/Admin/class-settings-page.php:505
+msgid "By default, the plugin uses "
+msgstr "Domyślnie wtyczka używa "
+
+#: includes/classes/class-wp2fa.php:119 includes/classes/class-wp2fa.php:120
+#: includes/classes/Utils/class-white-label.php:105
+#: includes/classes/Utils/class-white-label.php:106
+msgid "Enter the 2FA code you have received over SMS."
+msgstr "Wpisz kod 2FA otrzymany w wiadomości SMS."
+
+#: includes/classes/class-wp2fa.php:118
+#: includes/classes/Utils/class-white-label.php:104
+msgid "Manually enter the code from the mobile app."
+msgstr "Ręcznie wpisz kod z aplikacji mobilnej."
+
+#: includes/classes/class-wp2fa.php:117
+#: includes/classes/Utils/class-white-label.php:103
+msgid "Waiting for approval from application..."
+msgstr "Czekam na zatwierdzenie wniosku..."
+
+#: includes/classes/class-wp2fa.php:116
+#: includes/classes/Utils/class-white-label.php:102
+msgid "If you are using the Authy app approve the OneTouch request to log in."
+msgstr "Jeśli korzystasz z aplikacji Authy, zatwierdź żądanie logowania OneTouch."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:761
+msgid "When you enable this setting a page with the same slug is created on each site on the network, so the users of each sub site can use this page on their website to configure 2FA."
+msgstr "Po włączeniu tego ustawienia w każdej witrynie w sieci tworzona jest strona z tą samą uproszczoną nazwą, dzięki czemu użytkownicy każdej podstrony mogą używać tej strony w swojej witrynie do konfigurowania uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:183
+msgid "This is the email sent to a user when setting up 2FA via email."
+msgstr "Jest to wiadomość e-mail wysyłana do użytkownika podczas konfigurowania 2FA za pośrednictwem poczty e-mail."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:182
+msgid "2FA setup code email"
+msgstr "Wiadomość e-mail z kodem konfiguracji uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:140
+msgid "for more information."
+msgstr "aby uzyskać więcej informacji."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:140
+msgid "Tip: The 'From email' address should match your website domain. If the \"from address\" does not match your website domain, the emails may be blocked or marked as spam. If you are not sure about this please consult with your website administrator / developer or "
+msgstr "Wskazówka: adres \"Od e-mail\" powinien być zgodny z domeną twojej witryny internetowej. Jeśli adres \"od\" nie pasuje do domeny twojej witryny internetowej, wiadomości e-mail mogą zostać zablokowane lub oznaczone jako spam. Jeśli nie masz co do tego pewności, skonsultuj się z administratorem / programistą witryny internetowej lub "
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:128
+msgid "A 'From email' address with a domain different than that of your website domain name, or with a domain that the hosting does not relay might cause the notification emails to be blocked, marked as spam, or not delivered at all. If you are not 100% sure about this change, consult with your web host."
+msgstr "Adres \"Od e-mail\" z domeną inną niż nazwa domeny twojej witryny internetowej lub z domeną, której hosting nie przekazuje, może spowodować, że wiadomości e-mail z powiadomieniami zostaną zablokowane, oznaczone jako spam lub w ogóle nie zostaną dostarczone. Jeśli nie masz 100% pewności co do tej zmiany, skonsultuj się ze swoim hostingiem."
+
+#. translators: the name of the file.
+#: includes/classes/Admin/Helpers/class-file-writer.php:498
+msgid "Unable to remove %s due to an unknown error."
+msgstr "Nie można usunąć %s z powodu nieznanego błędu."
+
+#. translators: the name of the file.
+#: includes/classes/Admin/Helpers/class-file-writer.php:482
+msgid "The file %s could not be removed as the unlink() function is disabled. This is a system configuration issue."
+msgstr "Nie można usunąć pliku %s, ponieważ funkcja unlink() jest wyłączona. Jest to problem związany z konfiguracją systemu."
+
+#. translators: %s: Directory path.
+#: includes/classes/Admin/Helpers/class-file-writer.php:451
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Nie można utworzyć katalogu %s. Czy serwer ma uprawnienia do zapisu w przypadku katalogu nadrzędnego?"
+
+#: includes/classes/Admin/Helpers/class-file-writer.php:428
+msgid "The base of WSAL working directory cannot be determined. Custom path is invalid or there is some other issue with your WordPress installation."
+msgstr "Nie można określić podstawy katalogu roboczego WSAL. Własna ścieżka jest nieprawidłowa lub istnieje inny problem z twoją instalacją WordPress."
+
+#: includes/classes/Admin/class-user-profile.php:321
+msgid "Show QR code"
+msgstr "Pokaż kod QR"
+
+#: includes/classes/Admin/class-user-profile.php:311
+msgid "2FA configuration:"
+msgstr "Konfiguracja uwierzytelniania dwuskładnikowego (2FA):"
+
+#: includes/classes/Admin/class-user-profile.php:300
+msgid "Secondary method(s):"
+msgstr "Dodatkowe metody:"
+
+#: includes/classes/Admin/class-user-profile.php:292
+msgid "Primary method:"
+msgstr "Metoda podstawowa:"
+
+#: includes/classes/Admin/class-user-profile.php:286
+msgid "Currently configured:"
+msgstr "Aktualnie skonfigurowany:"
+
+#: includes/classes/Admin/class-user-profile.php:270
+msgid "No enabled backup methods"
+msgstr "Brak włączonych metod tworzenia kopii zapasowych"
+
+#: includes/classes/Admin/class-user-profile.php:268
+msgid "No enabled primary method"
+msgstr "Brak włączonej metody podstawowej"
+
+#: includes/classes/Admin/class-setup-wizard.php:632
+msgid "Email sending failed"
+msgstr "Wysyłanie wiadomości e-mail nie powiodło się"
+
+#: includes/classes/Admin/class-premium-features.php:69
+#: includes/classes/Admin/class-premium-features.php:214
+#: includes/classes/Admin/class-premium-features.php:436
+#: includes/classes/Admin/class-settings-page.php:212
+msgid "Upgrade to Premium"
+msgstr "Zaktualizuj do premium"
+
+#. translators: the support e-mail.
+#: includes/classes/class-wp2fa.php:979
+msgid "To enforce 2FA on users logging in from non default WordPress login pages please configure the %1$s. If you need assistance, please contact us at %2$s."
+msgstr "Aby wymusić uwierzytelnianie dwuskładnikowe (2FA) na użytkownikach logujących się z innych niż domyślne strony logowania WordPress, skonfiguruj %1$s. Jeśli potrzebujesz pomocy, skontaktuj się z nami pod adresem %2$s."
+
+#. translators: the site name.
+#: includes/classes/class-wp2fa.php:969
+msgid "2FA is enforced on the user %1$s on the website %2$s. However, since the WP 2FA plugin has not been configured properly it cannot enforce the user to configure 2FA, so the user logged in without 2FA."
+msgstr "Uwierzytelnianie dwuskładnikowe (2FA) jest wymuszane na użytkowniku %1$s na witrynie internetowej %2$s. Ponieważ jednak wtyczka WP 2FA nie została poprawnie skonfigurowana, nie może wymusić na użytkowniku skonfigurowania 2FA, więc użytkownik zalogował się bez 2FA."
+
+#. translators: The username.
+#: includes/classes/class-wp2fa.php:959
+msgid "User %1$s logged in without 2FA"
+msgstr "Użytkownik %1$s zalogował się bez 2FA"
+
+#: includes/classes/class-wp2fa.php:759
+msgid "Configure"
+msgstr "Konfiguracja"
+
+#: includes/classes/class-wp2fa.php:759
+msgid "Reconfigure"
+msgstr "Skonfiguruj ponownie"
+
+#. translators: The login code provided from the plugin.
+#: includes/classes/class-wp2fa.php:577
+msgid "Please enter this code to confirm 2FA setup: %1$1s"
+msgstr "Wprowadź ten kod, aby potwierdzić konfigurację uwierzytelniania dwuskładnikowego (2FA): %1$1s"
+
+#: includes/classes/class-wp2fa.php:573
+msgid "If this was not you, ignore this email and contact your website administrator."
+msgstr "Jeśli to nie ty, zignoruj tę wiadomość i skontaktuj się z administratorem witryny internetowej."
+
+#. translators: The login code provided from the plugin.
+#: includes/classes/class-wp2fa.php:564
+msgid "Someone from the IP address %1$1s has requested a password reset for the user %2$2s on the website %3$3s. If this was you please use the below code to proceed with the password reset:"
+msgstr "Ktoś z adresu IP %1$1s zażądał zresetowania hasła dla użytkownika %2$2s na witrynie internetowej %3$3s. Jeśli to ty, użyj poniższego kodu, aby kontynuować resetowanie hasła:"
+
+#: includes/classes/class-wp2fa.php:558
+msgid "2FA code for password reset"
+msgstr "Kod uwierzytelniania dwuskładnikowego (2FA) do resetowania hasła"
+
+#: includes/classes/class-wp2fa.php:165
+#: includes/classes/Utils/class-white-label.php:154
+msgid "Well done on configuring 2FA, your login has just got more secure. To make sure you never get locked out you are required to confirm your email address and use email as an alternative and backup 2FA method in case your primary method is unavailable. Please confirm your email address below"
+msgstr "Dobra robota z konfiguracją uwierzytelniania dwuskładnikowego (2FA), twoje logowanie właśnie stało się bezpieczniejsze. Aby upewnić się, że nigdy nie zostaniesz zablokowany, musisz potwierdzić swój adres e-mail i używać go jako alternatywnej i zapasowej metody 2FA na wypadek, gdyby twoja podstawowa metoda była niedostępna. Potwierdź swój adres e-mail poniżej"
+
+#: includes/classes/class-wp2fa.php:164
+#: includes/classes/Utils/class-white-label.php:153
+msgid "You must be logged in to view this page. {login_url}"
+msgstr "Musisz być zalogowany, aby wyświetlić tę stronę. {login_url}"
+
+#: includes/classes/class-wp2fa.php:159
+#: includes/classes/Utils/class-white-label.php:148
+msgid "{reconfigure_or_configure_capitalized} link over email method"
+msgstr "{reconfigure_or_configure_capitalized} odnośnik za pośrednictwem metody e-mail"
+
+#: includes/classes/class-wp2fa.php:156 includes/classes/class-wp2fa.php:157
+#: includes/classes/Utils/class-white-label.php:145
+#: includes/classes/Utils/class-white-label.php:146
+msgid "The 2FA over SMS service you want to use is currently unavailable. Please try again later or restart the wizard to choose another method."
+msgstr "Usługa uwierzytelniania dwuskładnikowego (2FA) przez SMS, której chcesz użyć, jest obecnie niedostępna. Spróbuj ponownie później lub uruchom ponownie kreatora, aby wybrać inną metodę."
+
+#: includes/classes/class-wp2fa.php:156 includes/classes/class-wp2fa.php:157
+#: includes/classes/Utils/class-white-label.php:145
+#: includes/classes/Utils/class-white-label.php:146
+msgid "{reconfigure_or_configure_capitalized} SMS method"
+msgstr "{reconfigure_or_configure_capitalized} Metoda SMS"
+
+#: includes/classes/class-wp2fa.php:151 includes/classes/class-wp2fa.php:152
+#: includes/classes/Utils/class-white-label.php:140
+#: includes/classes/Utils/class-white-label.php:141
+msgid "{reconfigure_or_configure_capitalized} push notification method"
+msgstr "{reconfigure_or_configure_capitalized} metoda powiadomień push"
+
+#: includes/classes/Admin/Methods/class-email.php:146
+msgid "{reconfigure_or_configure_capitalized} one-time code over email method"
+msgstr "{reconfigure_or_configure_capitalized} jednorazowy kod za pośrednictwem metody e-mail"
+
+#: includes/classes/Admin/Methods/class-totp.php:333
+msgid "{reconfigure_or_configure_capitalized} the 2FA App"
+msgstr "{reconfigure_or_configure_capitalized} aplikacja uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/class-wp2fa.php:141 includes/classes/class-wp2fa.php:142
+#: includes/classes/Utils/class-white-label.php:130
+#: includes/classes/Utils/class-white-label.php:131
+msgid "Please type in the one-time code sent via SMS to your phone to confirm your phone number."
+msgstr "Wpisz jednorazowy kod wysłany SMS-em na twój telefon, aby potwierdzić swój numer telefonu."
+
+#: includes/classes/class-wp2fa.php:135 includes/classes/class-wp2fa.php:136
+#: includes/classes/Utils/class-white-label.php:124
+#: includes/classes/Utils/class-white-label.php:125
+msgid "When you use 2FA over SMS to log in to this website you will receive your one-time code via an SMS on your cellphone. Therefore please enter the cellphone number of where you would like to receive the SMS below."
+msgstr "Kiedy używasz uwierzytelniania dwuskładnikowego (2FA) przez SMS, aby zalogować się na tej  witrynie internetowej, otrzymasz swój jednorazowy kod SMS-em na swój telefon komórkowy. Dlatego wpisz poniżej numer telefonu komórkowego, na który chcesz otrzymywać wiadomości SMS."
+
+#: includes/classes/class-wp2fa.php:135 includes/classes/class-wp2fa.php:136
+#: includes/classes/Utils/class-white-label.php:124
+#: includes/classes/Utils/class-white-label.php:125
+msgid "Setting up 2FA over SMS"
+msgstr "Konfigurowanie uwierzytelniania dwuskładnikowego (2FA) przez SMS"
+
+#: includes/classes/class-wp2fa.php:134
+#: includes/classes/Utils/class-white-label.php:123
+msgid "Setting up Push notifications"
+msgstr "Konfigurowanie powiadomień push"
+
+#: includes/classes/class-wp2fa.php:114 includes/classes/class-wp2fa.php:115
+#: includes/classes/Utils/class-white-label.php:100
+#: includes/classes/Utils/class-white-label.php:101
+msgid "Failing to configure 2FA within this time period will result in a locked account. For more information, please contact your website administrator."
+msgstr "Brak skonfigurowania uwierzytelniania dwuskładnikowego (2FA) w tym okresie spowoduje zablokowanie konta. Aby uzyskać więcej informacji, skontaktuj się z administratorem witryny internetowej."
+
+#: includes/classes/class-wp2fa.php:114 includes/classes/class-wp2fa.php:115
+#: includes/classes/Utils/class-white-label.php:100
+#: includes/classes/Utils/class-white-label.php:101
+msgid "This website's administrator requires you to enable two-factor authentication (2FA) {grace_period_remaining}."
+msgstr "Administrator tej witryny internetowej wymaga włączenia uwierzytelniania dwuskładnikowego (2FA) {grace_period_remaining}."
+
+#: includes/classes/class-wp2fa.php:113
+#: includes/classes/Utils/class-white-label.php:99
+msgid "Note: If you have not received the code please click the button Resend Code. If you still do not get the code after pressing the button, please contact the website's administrator."
+msgstr "Uwaga: jeśli nie otrzymałeś kodu, kliknij przycisk \"Wyślij ponownie kod\". Jeśli po naciśnięciu przycisku nadal nie otrzymasz kodu, skontaktuj się z administratorem witryny internetowej."
+
+#: includes/classes/class-wp2fa.php:113
+#: includes/classes/Utils/class-white-label.php:99
+msgid "You have been sent a one-time code via email. Please enter the code below and then click Get New Password to proceed with the password reset."
+msgstr "Otrzymałeś jednorazowy kod pocztą elektroniczną. Wpisz poniższy kod, a następnie kliknij przycisk \"Pobierz nowe hasło\", aby kontynuować resetowanie hasła."
+
+#: includes/classes/class-wp2fa.php:112 includes/classes/class-wp2fa.php:122
+#: includes/classes/class-wp2fa.php:123
+#: includes/classes/Utils/class-white-label.php:98
+#: includes/classes/Utils/class-white-label.php:108
+#: includes/classes/Utils/class-white-label.php:109
+msgid "Note: if you are supposed to receive an email but did not receive any, please click the Resend Code button to request another code."
+msgstr "Uwaga: jeśli miałeś otrzymać wiadomość e-mail, ale jej nie otrzymałeś, kliknij przycisk \"Wyślij ponownie kod\", aby poprosić o inny kod."
+
+#: includes/classes/Authenticator/class-reset-passord.php:145
+msgid "Get New Password"
+msgstr "Zdobądź nowe hasło"
+
+#: includes/classes/Authenticator/class-login.php:1038
+msgid " For security reasons you have been sent a new code via email. Please use this new code to log in."
+msgstr " Ze względów bezpieczeństwa otrzymałeś nowy kod pocztą elektroniczną. Użyj tego nowego kodu, aby się zalogować."
+
+#: includes/classes/Admin/Views/class-passord-reset-2fa.php:140
+msgid "Password reset"
+msgstr "Resetowanie hasła"
+
+#: includes/classes/Admin/Views/class-passord-reset-2fa.php:134
+msgid "When you enable this setting users will be required to enter a one-time code sent to them via email when resetting the password."
+msgstr "Gdy włączysz to ustawienie, użytkownicy będą musieli wpisać jednorazowy kod wysłany do nich e-mailem podczas resetowania hasła."
+
+#: includes/classes/Admin/Views/class-passord-reset-2fa.php:132
+msgid "Do you want to require 2FA when users reset their password?"
+msgstr "Czy chcesz wymagać uwierzytelniania dwuskładnikowego (2FA), gdy użytkownicy resetują hasło?"
+
+#: includes/classes/Admin/Views/class-passord-reset-2fa.php:75
+msgid "Require 2FA on password reset"
+msgstr "Wymagaj uwierzytelniania dwuskładnikowego (2FA) przy resetowaniu hasła"
+
+#: includes/classes/Admin/Views/class-grace-period-notifications.php:89
+msgid "Show a notification on a page on its own after the user authenticates and before accessing the dashboard"
+msgstr "Wyświetlaj powiadomienia na stronie po uwierzytelnieniu użytkownika i przed uzyskaniem dostępu do kokpitu"
+
+#: includes/classes/Admin/Views/class-grace-period-notifications.php:79
+msgid "Show an admin notice in the dashboard"
+msgstr "Pokaż powiadomienie administratora na kokpicie"
+
+#: includes/classes/Admin/Views/class-grace-period-notifications.php:71
+msgid "How do you want users to be informed they are enforced to setup 2FA?"
+msgstr "W jaki sposób chcesz informować użytkowników o konieczności skonfigurowania uwierzytelniania dwuskładnikowego (2FA)?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:335
+msgid "Text for logged out users trying to access the 2FA configuration page"
+msgstr "Tekst dla wylogowanych użytkowników próbujących uzyskać dostęp do strony konfiguracji uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:174
+msgid "Markup is not allowed in Login area CSS."
+msgstr "Znaczniki nie są dozwolone w obszarze logowania CSS."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:760
+msgid "Create User settings page separately for every site"
+msgstr "Utwórz stronę ustawień użytkownika osobno dla każdej witryny internetowej"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:751
+msgid "Create separate pages on multisite network"
+msgstr "Utwórz oddzielne strony w sieci witryn"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:124
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:132
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:153
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:174
+msgid "support@melapress.com"
+msgstr "support@melapress.com"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:259
+msgid "Disable one-time code brute force protection"
+msgstr "Wyłącz ochronę przed brutalną siłą kodu jednorazowego"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:254
+msgid "When using email and SMS 2FA, the plugin sends the users a new one-time code whenever they enter the wrong code when logging in. This is a security enhancement, a sort of brute force protection. You can disable this feature from the below setting, however, it is not recommended."
+msgstr "W przypadku korzystania z uwierzytelniania dwuskładnikowego (2FA) przez e-mail i SMS, wtyczka wysyła użytkownikom nowy jednorazowy kod za każdym razem, gdy wpiszą nieprawidłowy kod podczas logowania. Jest to ulepszenie bezpieczeństwa, rodzaj ochrony przed brutalną siłą. Możesz wyłączyć tę funkcję w poniższych ustawieniach, jednak nie jest to zalecane."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:252
+msgid "Disable 2FA code brute force protection"
+msgstr "Wyłącz ochronę przed brutalną siłą kodu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:203
+msgid "This is the email sent to a user when a password reset is requested."
+msgstr "Jest to wiadomość e-mail wysyłana do użytkownika z prośbą o zresetowanie hasła."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:202
+msgid "User reset password code email"
+msgstr "Wiadomość e-mail z kodem resetowania hasła użytkownika"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:175
+msgid "This email can be sent a user once backup codes are generated."
+msgstr "Ta wiadomość e-mail może zostać wysłana do użytkownika po wygenerowaniu kodów zapasowych."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:174
+msgid "User backup codes email"
+msgstr "Kody kopii zapasowych użytkownika e-mail"
+
+#: includes/classes/Admin/Methods/class-email.php:110
+msgid "HOTP (Email)"
+msgstr "HOTP (Email)"
+
+#: includes/classes/Admin/class-user-notices.php:223
+msgid "User profile 2FA configuration area description"
+msgstr "Opis obszaru konfiguracji uwierzytelniania dwuskładnikowego (2FA) profilu użytkownika"
+
+#: includes/classes/Admin/class-user-notices.php:214
+msgid "User profile 2FA configuration area title"
+msgstr "Tytuł obszaru konfiguracji uwierzytelniania dwuskładnikowego (2FA) profilu użytkownika"
+
+#: includes/classes/Admin/class-user-notices.php:205
+msgid "2FA reconfiguration mandatory notice"
+msgstr "Obowiązkowe powiadomienie o rekonfiguracji uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-user-notices.php:196
+msgid "2FA mandatory notice"
+msgstr "Obowiązkowe powiadomienie uwierzytelniania dwuskładnikowego (2FA)"
+
+#. Author of the plugin
+#: wp-2fa.php
+msgid "Melapress"
+msgstr "Melapress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: wp-2fa.php
+msgid "https://melapress.com/"
+msgstr "https://melapress.com/"
+
+#: includes/classes/Authenticator/class-login.php:973
+#: includes/classes/Authenticator/class-login.php:999
+#: includes/classes/Authenticator/class-login.php:1024
+#: includes/classes/Authenticator/class-reset-passord.php:207
+msgid "<strong>Error</strong>: User can not be authenticated."
+msgstr "<strong>Błąd</strong>: użytkownik nie może zostać uwierzytelniony."
+
+#: includes/classes/class-wp2fa.php:1161
+msgid "Write key to file now / Check for the key in file"
+msgstr "Zapisz teraz klucz do pliku / Sprawdź, czy klucz znajduje się w pliku"
+
+#: includes/classes/class-wp2fa.php:1152
+msgid ""
+"Once you complete any of the above, please click the button below.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"Po wykonaniu któregokolwiek z powyższych kroków kliknij poniższy przycisk.\n"
+"\t\t\t\t\t\t"
+
+#: includes/classes/class-wp2fa.php:1151
+msgid "following these instructions."
+msgstr "postępując zgodnie z tymi instrukcjami."
+
+#: includes/classes/class-wp2fa.php:1150
+msgid "Option B) Add the encryption key to the wp-config.php file yourself by "
+msgstr "Opcja B) dodaj klucz szyfrowania do pliku wp-config.php samodzielnie poprzez "
+
+#: includes/classes/class-wp2fa.php:1148
+msgid "Option A) allow the plugin to write to the wp-config.php file temporarily by changing the wp-config.php permissions to 755. Once ready, click the button to proceed."
+msgstr "Opcja A) zezwól wtyczce na tymczasowy zapis do pliku wp-config.php, zmieniając uprawnienia wp-config.php na 755. Gdy wszystko będzie gotowe, kliknij przycisk, aby kontynuować."
+
+#: includes/classes/class-wp2fa.php:1146
+msgid "For security reasons WP 2FA needs to store the private key in the wp-config.php file. However, it is unable to. This can happen because of restrictive permissions, or the file is not in the default location. To fix this you can:"
+msgstr "Ze względów bezpieczeństwa WP 2FA musi przechowywać klucz prywatny w pliku wp-config.php. Nie jest to jednak możliwe. Może się to zdarzyć z powodu restrykcyjnych uprawnień lub plik nie znajduje się w domyślnej lokalizacji. Aby to naprawić, możesz:"
+
+#: includes/classes/class-wp2fa.php:624
+msgid "Thank you for enabling 2FA on your account and helping us keeping the website secure."
+msgstr "Dziękujemy za włączenie uwierzytelniania dwuskładnikowego (2FA) na swoim koncie i pomoc w utrzymaniu bezpieczeństwa witryny internetowej."
+
+#: includes/classes/class-wp2fa.php:620
+msgid "The website's URL is"
+msgstr "Adres URL witryny internetowej to"
+
+#: includes/classes/class-wp2fa.php:620
+msgid "Below please find the 2FA backup codes for your user"
+msgstr "Poniżej znajdziesz kody zapasowe uwierzytelniania dwuskładnikowego (2FA) dla swojego użytkownika"
+
+#: includes/classes/class-wp2fa.php:617
+msgid "2FA backup codes for user {user_login_name} on {site_name}"
+msgstr "Kody zapasowe uwierzytelniania dwuskładnikowego (2FA) dla użytkownika {user_login_name} na stronie {site_name}"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:274
+#: includes/classes/Admin/Views/class-wizard-steps.php:275
+msgid "Send me the codes via email"
+msgstr "Wyślij mi kody e-mailem"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:191
+msgid "to give your users more options."
+msgstr "aby dać użytkownikom więcej opcji."
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:190
+msgid "more alternative 2FA methods"
+msgstr "więcej alternatywnych metod uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:189
+msgid "Upgrade to WP 2FA Premium for"
+msgstr "Uaktualnij do WP 2FA premium dla"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:156
+msgid "Which alternative 2FA methods can users use?"
+msgstr "Z jakich alternatywnych metod uwierzytelniania dwuskładnikowego (2FA) mogą korzystać użytkownicy?"
+
+#: includes/classes/Admin/class-setup-wizard.php:493
+msgid "Alternative methods"
+msgstr "Metody alternatywne"
+
+#: includes/classes/Admin/class-setup-wizard.php:487
+msgid "2FA methods"
+msgstr "Metody uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-setup-wizard.php:256
+#: includes/classes/Shortcodes/class-shortcodes.php:74
+#: includes/functions/core.php:257
+msgid "Backup codes sent"
+msgstr "Wysłane kody zapasowe"
+
+#: includes/classes/Admin/class-setup-wizard.php:132
+msgid "Configure 2FA methods & Policies"
+msgstr "Skonfiguruj metody i zasady uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-premium-features.php:447
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:140
+msgid "contact us"
+msgstr "skontaktuj się z nami"
+
+#. translators: 1: Link to our site 2: Link to our contact page
+#: includes/classes/Admin/class-premium-features.php:445
+msgid "Visit the WP 2FA %1$s for more information or %2$s  with any questions you might have. We look forward to hearing from you."
+msgstr "Odwiedź stronę WP 2FA %1$s, aby uzyskać więcej informacji lub stronę %2$s jeśli masz jakiekolwiek pytania. Czekamy na twoją wiadomość."
+
+#: includes/classes/Admin/class-premium-features.php:368
+msgid "One-click 2FA integration in WooCommerce user page"
+msgstr "Integracja uwierzytelniania dwuskładnikowego (2FA) jednym kliknięciem na stronie użytkownika WooCommerce"
+
+#: includes/classes/Admin/class-premium-features.php:357
+msgid "White labeling (logo, wizards, email, colours, fonts & custom CSS)"
+msgstr "Białe etykietowanie (logo, kreatory, e-mail, kolory, czcionki i niestandardowy CSS)"
+
+#: includes/classes/Admin/class-premium-features.php:352
+msgid "Backup codes only"
+msgstr "Tylko kody zapasowe"
+
+#: includes/classes/Admin/class-premium-features.php:346
+msgid "Alternative 2FA methods"
+msgstr "Alternatywne metody uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-premium-features.php:335
+msgid "Trusted devices (remember devices)"
+msgstr "Zaufane urządzenia (zapamiętaj urządzenia)"
+
+#: includes/classes/Admin/class-premium-features.php:290
+msgid "2FA login with push notification (Authy)"
+msgstr "Logowanie 2FA z powiadomieniem push (Authy)"
+
+#: includes/classes/Admin/class-premium-features.php:246
+msgid "Out of the box support for e-commerce, membership & third party plugins (no code required)"
+msgstr "Gotowe wsparcie dla e-commerce, członkostwa i wtyczek innych firm (nie jest wymagany kod)"
+
+#: includes/classes/Admin/class-premium-features.php:238
+msgid "1-to-1 emails, forums"
+msgstr "E-maile 1 do 1, fora"
+
+#: includes/classes/Admin/class-premium-features.php:219
+msgid "Take advantage of these benefits and many others, with prices starting from as little as $29 for 5 users per year. "
+msgstr "Skorzystaj z tych i wielu innych korzyści, a ceny zaczynają się już od 29 USD za 5 użytkowników rocznie. "
+
+#: includes/classes/Admin/class-premium-features.php:218
+msgid "WP 2FA plugin features"
+msgstr "Funkcje wtyczki WP 2FA"
+
+#: includes/classes/Admin/class-premium-features.php:211
+msgid "Refer to the features matrix below for a detailed list of all the premium features"
+msgstr "Zapoznaj się z poniższą matrycą funkcji, aby uzyskać szczegółową listę wszystkich funkcji premium"
+
+#: includes/classes/Admin/class-premium-features.php:208
+msgid "More 2FA methods, including SMS, push notifications & one-click login"
+msgstr "Więcej metod uwierzytelniania dwuskładnikowego (2FA), w tym SMS, powiadomienia push i logowanie jednym kliknięciem"
+
+#: includes/classes/Admin/class-premium-features.php:201
+msgid "WP 2FA is your trusted gatekeeper, keeping your website, users, customers, team members, and anyone who accesses your website, including you, secure and better protected than ever before."
+msgstr "WP 2FA to twój zaufany strażnik, dzięki któremu twoja witryna internetowa, użytkownicy, klienci, członkowie zespołu i każdy, kto uzyskuje do niej dostęp, w tym Ty, jest bezpieczny i chroniony lepiej niż kiedykolwiek wcześniej."
+
+#: includes/classes/Admin/class-premium-features.php:65
+msgid "Completely whitelabel the 2FA user experience including the 2FA code page, email & wizards text"
+msgstr "Całkowicie dostosuj środowisko użytkownika 2FA, w tym stronę z kodem 2FA, wiadomości e-mail i tekst kreatorów"
+
+#: includes/classes/Admin/class-premium-features.php:64
+msgid "One-click 2FA integration with WooCommerce"
+msgstr "Integracja uwierzytelniania dwuskładnikowego (2FA) jednym kliknięciem z WooCommerce"
+
+#: includes/classes/Admin/class-premium-features.php:63
+msgid "Add alternative 2FA methods ensuring no user is ever locked out"
+msgstr "Dodaj alternatywne metody 2FA, aby żaden użytkownik nie został zablokowany"
+
+#: includes/classes/Admin/class-premium-features.php:60
+msgid "Upgrade to Premium & benefit:"
+msgstr "Uaktualnij do wersji premium i korzystaj:"
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:215
+msgid "Unable to find global secret key"
+msgstr "Nie można znaleźć globalnego klucza prywatnego"
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:206
+msgid "wp-config.php successfully update, global setting deleted"
+msgstr "wp-config.php pomyślnie zaktualizowany, ustawienie globalne usunięte"
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:193
+msgid "Unable to write to wp-config.php"
+msgstr "Nie można zapisać do wp-config.php"
+
+#: includes/classes/Admin/class-setup-wizard.php:580
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:187
+msgid "Nonce checking failed"
+msgstr "Sprawdzanie kodu jednorazowego nie powiodło się"
+
+#: includes/classes/class-wp2fa.php:154
+#: includes/classes/Utils/class-white-label.php:143
+msgid "Please select the phone where code should be send:"
+msgstr "Wybierz telefon, na który ma zostać wysłany kod:"
+
+#: includes/classes/class-wp2fa.php:146
+#: includes/classes/Utils/class-white-label.php:135
+msgid "You should now generate the list of backup method. Although this is optional, it is highly recommended to have a secondary 2FA method. This can be used as a backup should the primary 2FA method fail. This can happen if, for example, you forget your smartphone, the smartphone runs out of battery, or there are email deliverability problems."
+msgstr "Powinieneś teraz wygenerować listę metod tworzenia kopii zapasowych. Chociaż jest to opcjonalne, zdecydowanie zaleca się posiadanie dodatkowej metody 2FA. Może być ona używana jako kopia zapasowa, jeśli podstawowa metoda 2FA zawiedzie. Może się tak zdarzyć, jeśli na przykład zapomnisz smartfona, smartfon rozładuje się lub wystąpią problemy z dostarczalnością wiadomości e-mail."
+
+#: includes/classes/class-wp2fa.php:134
+#: includes/classes/Utils/class-white-label.php:123
+msgid "To enable push notifications enter the country and cellphone number in order to use it with this account."
+msgstr "Aby włączyć powiadomienia push, wpisz kraj i numer telefonu komórkowego, aby używać go z tym kontem."
+
+#: includes/classes/App/grace-period/class-grace-period.php:180
+msgid "Block the user (administrators have to manually unblock them)"
+msgstr "Zablokuj użytkownika (administratorzy muszą go ręcznie odblokować)"
+
+#: includes/classes/App/grace-period/class-grace-period.php:170
+msgid "Do not let them access the dashboard / user page once they log in until they configure 2FA"
+msgstr "Nie zezwalaj im na dostęp do kokpitu / strony użytkownika po zalogowaniu, dopóki nie skonfigurują 2FA."
+
+#: includes/classes/App/grace-period/class-grace-period.php:162
+msgid "What should the plugin do with users who do not configure 2FA within the grace period?"
+msgstr "Co wtyczka powinna zrobić z użytkownikami, którzy nie skonfigurują 2FA w okresie karencji?"
+
+#: includes/classes/Admin/Methods/class-email.php:144
+msgid "To ensure you always receive the one-time code whitelist the email address from which the codes are sent. This is {from_email}"
+msgstr "Aby mieć pewność, że zawsze otrzymasz kod jednorazowy, umieść na białej liście adres e-mail, z którego wysyłane są kody. Jest to {from_email}"
+
+#: includes/classes/Admin/Methods/class-email.php:143
+msgid "To complete the 2FA configuration you will be sent a one-time code over email, therefore you should have access to the mailbox of this email address. If you do not receive the email with the one-time code please check your spam folder and contact your administrator"
+msgstr "Aby ukończyć konfigurację 2FA, otrzymasz jednorazowy kod pocztą elektroniczną, dlatego powinieneś mieć dostęp do skrzynki pocztowej tego adresu e-mail. Jeśli nie otrzymasz wiadomości e-mail z kodem jednorazowym, sprawdź katalog spamu i skontaktuj się z administratorem."
+
+#: includes/classes/Admin/Methods/class-email.php:147
+msgid "One-time code via email"
+msgstr "Jednorazowy kod przesłany pocztą elektroniczną"
+
+#: includes/classes/Admin/Methods/class-totp.php:334
+msgid "One-time code via 2FA app"
+msgstr "Jednorazowy kod za pośrednictwem aplikacji 2FA"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:115
+msgid "Emails & templates"
+msgstr "E-maile i szablony"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:127
+msgid "General settings"
+msgstr "Ustawienia ogólne"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:179
+msgid "More information"
+msgstr "Więcej informacji"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:178
+msgid "Backup codes allow users to log in to WordPress should they find themselves unable to log in via the primary 2FA method. Backup codes are enabled by default and are generated during the 2FA configuration process. Each backup code can be used only once. Once the initial list is exhausted, more backup codes can be generated through the user’s WordPress profile page - "
+msgstr "Kody zapasowe pozwalają użytkownikom zalogować się do WordPressa, jeśli nie mogą zalogować się za pomocą podstawowej metody 2FA. Kody zapasowe są domyślnie włączone i są generowane podczas procesu konfiguracji 2FA. Każdy kod zapasowy może być użyty tylko raz. Po wyczerpaniu początkowej listy, więcej kodów zapasowych można wygenerować za pośrednictwem strony profilu WordPress użytkownika - "
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:161
+msgid "It is highly recommended to have an alternative 2FA method configured at all times. Below is a list of alternative 2FA methods available through this plugin:"
+msgstr "Zdecydowanie zaleca się, aby zawsze mieć skonfigurowaną alternatywną metodę 2FA. Poniżej znajduje się lista alternatywnych metod 2FA dostępnych za pośrednictwem tej wtyczki:"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:158
+msgid "An alternative 2FA method allows users to configure another 2FA method that can be used as a backup should the primary 2FA method fail. This can happen if, for example, a user forgets their smartphone, the smartphone runs out of battery, or there are email deliverability problems."
+msgstr "Alternatywna metoda 2FA pozwala użytkownikom skonfigurować inną metodę 2FA, która może być używana jako kopia zapasowa w przypadku awarii podstawowej metody 2FA. Może się tak zdarzyć, jeśli na przykład użytkownik zapomni swojego smartfona, smartfon rozładuje się lub wystąpią problemy z dostarczalnością wiadomości e-mail."
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:190
+msgid "Allowing users to set up a secondary 2FA method is highly recommended. You can do this in the next step of the wizard. This will allow users to log in using an alternative method should they, for example lose access to their phone."
+msgstr "Umożliwienie użytkownikom skonfigurowania dodatkowej metody 2FA jest wysoce zalecane. Możesz to zrobić w następnym kroku kreatora. Pozwoli to użytkownikom zalogować się przy użyciu alternatywnej metody, jeśli na przykład utracą dostęp do swojego telefonu."
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:190
+msgid "When using this method, users will receive the one-time login code over email. Therefore, email deliverability is very important. Users using this method should whitelist the address from which the codes are sent. By default, this is the email address configured in your WordPress. You can run an email test from the plugin's settings to confirm email deliverability. If you have had email deliverability / reliability issues, we highly recommend you to install the free plugin "
+msgstr "Korzystając z tej metody, użytkownicy otrzymają jednorazowy kod logowania za pośrednictwem poczty elektronicznej. Dlatego bardzo ważna jest dostarczalność wiadomości e-mail. Użytkownicy korzystający z tej metody powinni umieścić na białej liście adres, z którego wysyłane są kody. Domyślnie jest to adres e-mail skonfigurowany w twoim WordPressie. Możesz uruchomić test e-mail w ustawieniach wtyczki, aby potwierdzić dostarczalność wiadomości e-mail. Jeśli masz problemy z dostarczalnością / niezawodnością poczty e-mail, zalecamy zainstalowanie bezpłatnej wtyczki "
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:184
+msgid " - ensure email deliverability with the free plugin "
+msgstr " - Zapewnij dostarczalność wiadomości e-mail dzięki darmowej wtyczce "
+
+#. translators: link to the knowledge base website
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:337
+msgid "When using this method, users will need to configure a 2FA app to get the one-time login code. The plugin supports all standard 2FA apps. Refer to the %s for more information. Allowing users to set up a secondary 2FA method is highly recommended. You can do this in the next step of the wizard. This will allow users to log in using an alternative method should they, for example lose access to their phone."
+msgstr "Korzystając z tej metody, użytkownicy będą musieli skonfigurować aplikację uwierzytelniania dwuskładnikowego (2FA), aby uzyskać jednorazowy kod logowania. Wtyczka obsługuje wszystkie standardowe aplikacje uwierzytelniania dwuskładnikowego (2FA). Aby uzyskać więcej informacji, zapoznaj się z %s. Zezwolenie użytkownikom na skonfigurowanie dodatkowej metody 2FA jest wysoce zalecane. Możesz to zrobić w następnym kroku kreatora. Pozwoli to użytkownikom zalogować się przy użyciu alternatywnej metody, jeśli na przykład utracą dostęp do swojego telefonu."
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:44
+msgid "Which 2FA methods can your users use?"
+msgstr "Z jakich metod uwierzytelniania dwuskładnikowego (2FA) mogą korzystać twoi użytkownicy?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:253
+msgid "No global 2FA methods enabled."
+msgstr "Nie włączono globalnych metod uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/class-user-profile.php:422
+msgid "Ask your administrator to enable 2FA methods"
+msgstr "Poproś administratora o włączenie metod uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-user-profile.php:422
+msgid "No available 2FA methods set"
+msgstr "Brak dostępnych metod uwierzytelniania dwuskładnikowego (2FA)"
+
+#. translators: The number of the affected users.
+#: includes/classes/Admin/class-user-listing.php:231
+msgid "Removed 2FA trusted devices from %d users."
+msgstr "Usunięto zaufane urządzenia uwierzytelniania dwuskładnikowego (2FA) od %d użytkowników."
+
+#: includes/classes/Admin/class-user-listing.php:140
+#: includes/classes/Admin/class-user-listing.php:203
+msgid "Reset list of 2FA trusted devices"
+msgstr "Zresetuj listę zaufanych urządzeń uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-premium-features.php:61
+msgid "Login with 2FA via SMS, push notification or with a simple mouse click"
+msgstr "Zaloguj się za pomocą uwierzytelniania dwuskładnikowego (2FA) przez SMS, powiadomienie push lub zwykłe kliknięcie myszą."
+
+#: wp-2fa.php:167
+msgid "This plugin requires OpenSSL. Contact your web host or website administrator so they can enable OpenSSL. Re-activate the plugin once the library has been enabled."
+msgstr "Ta wtyczka wymaga OpenSSL. Skontaktuj się ze swoim hostingiem lub administratorem witryny, aby mogli włączyć OpenSSL. Ponownie aktywuj wtyczkę po włączeniu biblioteki."
+
+#: includes/classes/class-wp2fa.php:152
+#: includes/classes/Utils/class-white-label.php:141
+msgid "The 2FA service you want to use is currently unavailable. Please try again later or restart the wizard to choose another method."
+msgstr "Usługa uwierzytelniania dwuskładnikowego (2FA), której chcesz użyć, jest obecnie niedostępna. Spróbuj ponownie później lub uruchom ponownie kreatora, aby wybrać inną metodę."
+
+#: includes/classes/class-wp2fa.php:140
+#: includes/classes/Utils/class-white-label.php:129
+msgid "Please type in the code from your Authy application with name {authy_name}"
+msgstr "Wpisz kod ze swojej aplikacji Authy o nazwie {authy_name}."
+
+#: includes/classes/class-wp2fa.php:139
+#: includes/classes/Utils/class-white-label.php:128
+msgid "Please type in the one-time code sent to your email address to finalize the setup. Once the code is confirmed and 2FA is set up, you only have to verify a login by clicking on a link sent to you via email."
+msgstr "Wpisz jednorazowy kod wysłany na twój adres e-mail, aby sfinalizować konfigurację. Po potwierdzeniu kodu i skonfigurowaniu uwierzytelniania dwuskładnikowego (2FA) musisz tylko zweryfikować logowanie, klikając link wysłany do ciebie e-mailem."
+
+#: includes/classes/class-wp2fa.php:137
+#: includes/classes/Utils/class-white-label.php:126
+msgid "Please select the email address to where the out-of-band link should be sent:"
+msgstr "Wybierz adres e-mail, na który ma zostać wysłane odnośnik pozapasmowy:"
+
+#: includes/classes/class-wp2fa.php:137
+#: includes/classes/Utils/class-white-label.php:126
+msgid "Setting up Link over email 2FA"
+msgstr "Konfigurowanie usługi uwierzytelniania dwuskładnikowego (2FA) odnośnik przez e-mail"
+
+#: includes/classes/Admin/Methods/class-totp.php:329
+msgid "Download and start the application of your choice"
+msgstr "Pobierz i uruchom wybraną aplikację"
+
+#: includes/classes/class-wp2fa.php:132 includes/classes/class-wp2fa.php:133
+#: includes/classes/Utils/class-white-label.php:118
+#: includes/classes/Utils/class-white-label.php:122
+msgid "Choose the 2FA method"
+msgstr "Wybierz metodę uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Authenticator/class-login.php:955
+msgid "<p> <strong>WP-2FA</strong>: Please contact the administrator for further assistance!</p>"
+msgstr "<p> <strong>WP-2FA</strong>: Skontaktuj się z administratorem w celu uzyskania dalszej pomocy!</p>"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:263
+msgid "Copy"
+msgstr "Kopiuj"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:339
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:281
+msgid "Validate & Save"
+msgstr "Zatwierdź i zapisz"
+
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:249
+msgid "Click on the icon of the app that you are using for a detailed guide on how to set it up."
+msgstr "Kliknij ikonkę używanej aplikacji, aby uzyskać szczegółowy przewodnik dotyczący jej konfiguracji."
+
+#: includes/classes/Admin/class-user-profile.php:327
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:236
+msgid "COPY"
+msgstr "KOPIUJ"
+
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:338
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:347
+#: includes/classes/Admin/Methods/class-totp.php:338
+msgid "guide on how to set up 2FA apps"
+msgstr "przewodnik dotyczący konfigurowania aplikacji uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:368
+msgid "Enable our CSS within user wizards"
+msgstr "Włącz nasz CSS w kreatorach użytkownika"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:362
+msgid "Enable styling"
+msgstr "Włącz stylizację"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:357
+msgid "By default, the user 2FA wizards which the users see and use to set up 2FA have our own styling. Disable the below setting so the wizards use the styling of your website's theme."
+msgstr "Domyślnie kreatory uwierzytelniania dwuskładnikowego (2FA) użytkownika, które użytkownicy widzą i używają do skonfigurowania 2FA, mają nasz własny styl. Wyłącz poniższe ustawienie, aby kreatory używały stylu motywu twojej witryny internetowej."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:355
+msgid "Change the styling of the user 2FA wizards"
+msgstr "Zmień styl kreatorów uwierzytelniania dwuskładnikowego (2FA) użytkownika"
+
+#: includes/classes/Admin/Controllers/class-methods.php:104
+#: includes/classes/Utils/class-white-label.php:118
+msgid "There are {available_methods_count} methods available to choose from for 2FA:"
+msgstr "Istnieje {available_methods_count} metod dostępnych do wyboru dla uwierzytelniania dwuskładnikowego (2FA):"
+
+#. translators: The number of the affected users.
+#: includes/classes/Admin/class-user-listing.php:221
+msgid "Removed 2FA from %d users."
+msgstr "Usunięto uwierzytelniania dwuskładnikowego (2FA) od %d użytkowników."
+
+#: includes/classes/Authenticator/class-login.php:955
+msgid "Invalid provider."
+msgstr "Nieprawidłowy dostawca."
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:46
+msgid "When you uncheck any of the below 2FA methods it won't be available for your users to use. You can always change this later on from the plugin's settings."
+msgstr "Gdy odznaczysz którąkolwiek z poniższych metod uwierzytelniania dwuskładnikowego (2FA), nie będzie ona dostępna dla twoich użytkowników. Zawsze możesz to później zmienić w ustawieniach wtyczki."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:313
+msgid "Allow the login without 2FA"
+msgstr "Zezwalaj na logowanie bez uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:305
+msgid "Block the login."
+msgstr "Zablokuj logowanie."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:298
+msgid "Select action"
+msgstr "Wybierz akcję"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:293
+msgid "There may be cases in which the 2FA service is unavailable when a user is trying to log in. For example, the service is unreachable or there are no credits to complete the action. In this case you can configure the plugin to either block the login process, or allow the user to log in without 2FA authentication."
+msgstr "Mogą wystąpić przypadki, w których usługa uwierzytelniania dwuskładnikowego (2FA) jest niedostępna, gdy użytkownik próbuje się zalogować. Na przykład, usługa jest nieosiągalna lub nie ma środków, na wykonanie akcji. W takim przypadku możesz skonfigurować wtyczkę tak, aby blokowała proces logowania lub pozwalała użytkownikowi zalogować się bez uwierzytelniania 2FA."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:291
+msgid "What should the plugin do if the 2FA method used during a user login is unavailable"
+msgstr "Co powinna zrobić wtyczka, jeśli metoda uwierzytelniania dwuskładnikowego (2FA) używana podczas logowania użytkownika jest niedostępna"
+
+#. translators: support email.
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:286
+msgid "Use this setting below to configure the properties of the two-factor authentication on your website and how users use it. If you have any questions send us an email at %1$s."
+msgstr "Użyj tego ustawienia poniżej, aby skonfigurować właściwości uwierzytelniania dwuskładnikowego w swojej witrynie internetowej i sposób korzystania z niego przez użytkowników. Jeśli masz jakieś pytania, wyślij nam e-mail na adres %1$s."
+
+#: includes/classes/Admin/class-user-profile.php:778
+msgid "Error processing form"
+msgstr "Formularz przetwarzania błędów"
+
+#: includes/classes/Admin/class-user-profile.php:725
+msgid "No form"
+msgstr "Brak formularza"
+
+#: includes/classes/Admin/class-setup-wizard.php:255
+#: includes/classes/Shortcodes/class-shortcodes.php:59
+#: includes/classes/Shortcodes/class-shortcodes.php:73
+#: includes/functions/core.php:242
+msgid "Please use a valid email address"
+msgstr "Wpisz prawidłowy adres e-mail"
+
+#: includes/classes/Admin/class-premium-features.php:446
+msgid "plugin website"
+msgstr "witryna internetowa wtyczki"
+
+#: includes/classes/Admin/class-premium-features.php:202
+msgid "Upgrade to WP 2FA Premium to add more secure authentication options and automate more, encouraging all your website users to utilize 2FA to its fullest extent and give your users more flexibility by allowing them to work from anywhere without compromising on security."
+msgstr "Uaktualnij do WP 2FA premium, aby dodać więcej bezpiecznych opcji uwierzytelniania i zautomatyzować więcej, zachęcając wszystkich użytkowników witryny internetowej do korzystania z 2FA w pełnym zakresie i zapewniając użytkownikom większą elastyczność, umożliwiając im pracę z dowolnego miejsca bez uszczerbku dla bezpieczeństwa."
+
+#: includes/classes/Admin/class-premium-features.php:68
+#: includes/classes/Admin/class-premium-features.php:423
+msgid "No Ads!"
+msgstr "Brak reklam!"
+
+#: includes/classes/Admin/class-premium-features.php:67
+msgid "Many other features"
+msgstr "Wiele innych funkcji"
+
+#: includes/classes/Admin/class-premium-features.php:66
+msgid "Configure different 2FA policies for different user roles"
+msgstr "Skonfiguruj różne zasady uwierzytelniania dwuskładnikowego (2FA) dla różnych ról użytkowników"
+
+#: includes/classes/Admin/class-premium-features.php:62
+msgid "Add & manage trusted devices (\"Remember this device\" option)"
+msgstr "Dodaj zaufane urządzenia i zarządzaj nimi (opcja \"Zapamiętaj to urządzenie\")"
+
+#: includes/classes/Utils/class-user-utils.php:372
+msgid "User has not logged in yet, 2FA status is unknown"
+msgstr "Użytkownik jeszcze się nie zalogował, status uwierzytelniania dwuskładnikowego (2FA) jest nieznany"
+
+#: includes/functions/core.php:243
+msgid "Validating your license, please wait..."
+msgstr "Weryfikacja twojej licencji, poczekaj..."
+
+#: includes/classes/Admin/Methods/class-backup-codes.php:364
+msgid "More information."
+msgstr "Więcej informacji."
+
+#. translators: URL with more information about the backup codes
+#: includes/classes/Admin/Methods/class-backup-codes.php:363
+msgid "Login with a backup code: you will get 10 backup codes and you can use one of them when you need to login and you cannot generate a code from the app. %s"
+msgstr "Zaloguj się za pomocą kodu zapasowego: otrzymasz 10 kodów zapasowych i możesz użyć jednego z nich, gdy musisz się zalogować, a nie możesz wygenerować kodu z aplikacji. %s"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:417
+msgid "Configure backup 2FA method"
+msgstr "Skonfiguruj zapasową metodę uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/class-wp2fa.php:144
+#: includes/classes/Utils/class-white-label.php:133
+msgid "It is recommended to configure a backup 2FA method in case you do not have access to the primary 2FA method to generate a code to log in. You can configure any of the below. You can always configure any or both from your user profile page later."
+msgstr "Zaleca się skonfigurowanie zapasowej metody uwierzytelniania dwuskładnikowego (2FA) na wypadek, gdybyś nie miał dostępu do podstawowej metody 2FA w celu wygenerowania kodu do logowania. Możesz skonfigurować dowolną z poniższych metod. Zawsze możesz później skonfigurować dowolną lub obie metody na stronie profilu użytkownika."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:340
+msgid "Congratulations."
+msgstr "Gratulacje."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:223
+msgid "Backup 2FA methods:"
+msgstr "Zapasowe metody uwierzytelniania dwuskładnikowego (2FA):"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:154
+#: includes/classes/Admin/Views/class-wizard-steps.php:204
+#: includes/classes/Admin/Views/class-wizard-steps.php:236
+#: includes/classes/class-wp2fa.php:147
+#: includes/classes/Utils/class-white-label.php:136
+msgid "Generate list of backup codes"
+msgstr "Wygeneruj listę kodów zapasowych"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:558
+msgid "days"
+msgstr "dni"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:205
+msgid "Allow user to specify the email address of choice"
+msgstr "Pozwól użytkownikowi określić wybrany adres e-mail."
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:55
+msgid "Which of the below 2FA methods can users use?"
+msgstr "Których z poniższych metod uwierzytelniania dwuskładnikowego (2FA) mogą używać użytkownicy?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:169
+msgid "White labeling"
+msgstr "Białe etykiety"
+
+#: includes/classes/Admin/class-user-profile.php:340
+msgid "2FA Setup:"
+msgstr "Konfiguracja uwierzytelniania dwuskładnikowego (2FA):"
+
+#: includes/classes/class-wp2fa.php:166
+#: includes/classes/Utils/class-white-label.php:155
+msgid "Two-factor authentication settings"
+msgstr "Ustawienia uwierzytelniania dwuskładnikowego"
+
+#: includes/classes/Admin/class-user-profile.php:136
+msgid "Change 2FA settings"
+msgstr "Zmień ustawienia uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-user-profile.php:150
+msgid "Learn more about backup codes"
+msgstr "Dowiedz się więcej o kodach zapasowych"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:321
+msgid "Backup code page text"
+msgstr "Tekst strony z kodem zapasowym"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:45
+msgid "Save email settings and templates"
+msgstr "Zapisuj ustawienia i szablony wiadomości e-mail"
+
+#: includes/classes/Admin/class-settings-page.php:62
+#: includes/classes/Admin/class-settings-page.php:137
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/classes/Admin/class-settings-page.php:51
+#: includes/classes/Admin/class-settings-page.php:52
+#: includes/classes/Admin/class-settings-page.php:126
+#: includes/classes/Admin/class-settings-page.php:127
+msgid "2FA Policies"
+msgstr "Zasady uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-premium-features.php:401
+msgid "Sortable users' 2FA status"
+msgstr "Sortowalny status uwierzytelniania dwuskładnikowego (2FA) użytkowników"
+
+#: includes/classes/Admin/class-premium-features.php:390
+msgid "Configurable 2FA code expiration time"
+msgstr "Konfigurowalny czas wygaśnięcia kodu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-premium-features.php:379
+msgid "Reports & Statistics"
+msgstr "Raporty i statystyki"
+
+#: includes/classes/Admin/class-premium-features.php:324
+msgid "Different 2FA policies per user role"
+msgstr "Różne zasady uwierzytelniania dwuskładnikowego (2FA) w zależności od roli użytkownika"
+
+#: includes/classes/Admin/class-premium-features.php:268
+msgid "2FA code over email"
+msgstr "Kod uwierzytelniania dwuskładnikowego (2FA) przez e-mail"
+
+#: includes/classes/Admin/class-premium-features.php:257
+msgid "2FA code via mobile app"
+msgstr "Kod uwierzytelniania dwuskładnikowego (2FA) za pośrednictwem aplikacji mobilnej"
+
+#: includes/classes/Admin/class-premium-features.php:241
+msgid "forums"
+msgstr "fora"
+
+#: includes/classes/Admin/class-premium-features.php:235
+msgid "Support"
+msgstr "Pomoc techniczna"
+
+#: includes/classes/Admin/class-premium-features.php:230
+msgid "Free"
+msgstr "Darmowy"
+
+#: includes/classes/Admin/class-premium-features.php:227
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/classes/Admin/class-premium-features.php:210
+msgid "White labeling features: Gain increased trust by extending your business’ branding and tone of voice to all 2FA pages, wizards & emails"
+msgstr "Funkcje białych etykiet: zyskaj większe zaufanie, rozszerzając branding i ton głosu swojej firmy na wszystkie strony, kreatory i wiadomości e-mail uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/class-premium-features.php:209
+msgid "Trusted devices: Allow users to add trusted devices so they do not have to manually enter the 2FA code each time they log in"
+msgstr "Zaufane urządzenia: pozwól użytkownikom dodawać zaufane urządzenia, aby nie musieli ręcznie wpisywać kodu uwierzytelniania dwuskładnikowego (2FA) za każdym razem, gdy się logują."
+
+#: includes/classes/Admin/class-premium-features.php:206
+msgid "Upgrade to Premium and start benefiting from value-added features such as:"
+msgstr "Uaktualnij do wersji premium i zacznij korzystać z funkcji o wartości dodanej, takich jak:"
+
+#: includes/classes/Admin/class-premium-features.php:194
+msgid "Upgrade to Premium and benefit more!"
+msgstr "Uaktualnij do wersji premium i zyskaj więcej!"
+
+#: includes/classes/Admin/class-premium-features.php:42
+msgid "Premium Features ➤"
+msgstr "Funkcje premium ➤"
+
+#: includes/classes/Admin/class-premium-features.php:41
+msgid "Premium Features"
+msgstr "Funkcje premium"
+
+#: includes/classes/Admin/class-help-contact-us.php:281
+msgid "Protect website forms & login pages from spam bots & automated attacks."
+msgstr "Chroń formularze witryny internetowej i strony logowania przed robotami spamującymi i automatycznymi atakami."
+
+#: includes/classes/Admin/class-help-contact-us.php:254
+msgid "Automatically identify unauthorized file changes on your WordPress site."
+msgstr "Automatycznie identyfikuj nieautoryzowane zmiany plików w swojej witrynie WordPress."
+
+#: includes/classes/Admin/class-help-contact-us.php:227
+msgid "Enforce strong password policies on WordPress."
+msgstr "Egzekwuj silne zasady dotyczące haseł w WordPress."
+
+#: includes/classes/Admin/class-help-contact-us.php:216
+#: includes/classes/Admin/class-help-contact-us.php:243
+#: includes/classes/Admin/class-help-contact-us.php:270
+#: includes/classes/Admin/class-help-contact-us.php:297
+msgid "LEARN MORE"
+msgstr "DOWIEDZ SIĘ WIĘCEJ"
+
+#: includes/classes/Admin/class-help-contact-us.php:200
+msgid "Keep a log of users and under the hood site activity."
+msgstr "Prowadź dziennik użytkowników i aktywności witryny pod maską."
+
+#: includes/classes/Admin/class-help-contact-us.php:192
+msgid "Our WordPress Plugins"
+msgstr "Nasze wtyczki WordPress"
+
+#: includes/classes/Admin/class-help-contact-us.php:145
+msgid "System information"
+msgstr "Informacje o systemie"
+
+#: includes/classes/Admin/class-help-contact-us.php:128
+msgid "Contact us"
+msgstr "Skontaktuj się z nami"
+
+#: includes/classes/Admin/class-help-contact-us.php:127
+msgid "Open support ticket"
+msgstr "Otwórz zgłoszenie do pomocy technicznej"
+
+#: includes/classes/Admin/class-help-contact-us.php:125
+msgid "Do you need assistance with the plugin? Have you noticed or encountered an issue while using WP 2FA, or do you just want to report something to us?"
+msgstr "Potrzebujesz pomocy z wtyczką? Zauważyłeś lub napotkałeś problem podczas korzystania z WP 2FA lub po prostu chcesz nam coś zgłosić?"
+
+#: includes/classes/Admin/class-help-contact-us.php:123
+msgid "Plugin support"
+msgstr "Wsparcie techniczne wtyczki"
+
+#: includes/classes/Admin/class-help-contact-us.php:117
+msgid "Knowledge base"
+msgstr "Baza wiedzy"
+
+#: includes/classes/Admin/class-help-contact-us.php:115
+msgid "For more technical information about the WP 2FA plugin please visit the plugin's knowledge base."
+msgstr "Aby uzyskać więcej informacji technicznych na temat wtyczki WP 2FA, odwiedź bazę wiedzy wtyczki."
+
+#: includes/classes/Admin/class-help-contact-us.php:113
+msgid "Plugin documentation"
+msgstr "Dokumentacja wtyczki"
+
+#: includes/classes/Admin/class-help-contact-us.php:105
+msgid "Allowing users to configure 2FA from a website page (no dashboard access)"
+msgstr "Umożliwienie użytkownikom skonfigurowania 2FA z poziomu strony internetowej (bez dostępu do kokpitu)"
+
+#: includes/classes/Admin/class-help-contact-us.php:104
+msgid "Configuring 2FA policies & making 2FA mandatory"
+msgstr "Konfigurowanie zasad uwierzytelniania dwuskładnikowego (2FA) i wprowadzanie obowiązkowego 2FA"
+
+#: includes/classes/Admin/class-help-contact-us.php:103
+msgid "Getting started with WP 2FA"
+msgstr "Pierwsze kroki z WP 2FA"
+
+#: includes/classes/Admin/class-help-contact-us.php:101
+msgid "Getting started with WP 2FA and making 2FA compulsory is as easy as 1 2 3 with WP 2FA. This can be easily done through the install wizard or the plugin settings. If you are stuck, no problem! Below are a few links of guides to help you get started:"
+msgstr "Rozpoczęcie pracy z WP 2FA i uczynienie 2FA obowiązkowym jest tak proste, jak 1 2 3 z WP 2FA. Możesz to łatwo zrobić za pomocą kreatora instalacji lub ustawień wtyczki. Jeśli utkniesz, nie ma problemu! Poniżej znajduje się kilka linków do przewodników, które pomogą ci zacząć:"
+
+#: includes/classes/Admin/class-help-contact-us.php:99
+#: includes/classes/Admin/class-help-contact-us.php:109
+msgid "Getting started"
+msgstr "Zaczynamy"
+
+#: includes/classes/Admin/class-help-contact-us.php:72
+msgid "System info"
+msgstr "Informacje systemowe"
+
+#: includes/classes/Admin/class-help-contact-us.php:63
+#: includes/classes/Admin/class-help-contact-us.php:71
+msgid "Help"
+msgstr "Pomoc"
+
+#: includes/classes/Admin/class-help-contact-us.php:34
+#: includes/classes/Admin/class-help-contact-us.php:35
+msgid "Help & Contact Us"
+msgstr "Pomoc i kontakt"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:362
+#: includes/classes/Admin/Views/class-wizard-steps.php:420
+msgid "Close wizard & configure 2FA later"
+msgstr "Zamknij i skonfiguruj uwierzytelniania dwuskładnikowego (2FA) później"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:356
+msgid "Now you need to configure 2FA for your own user account. You can do this now (recommended) or later."
+msgstr "Skonfiguruj swoje konto uwierzytelniania dwuskładnikowego (2FA). Możesz to zrobić teraz (rekomendowane) lub później."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:343
+msgid "Great job, the plugin and 2FA policies are now configured. You can always change the plugin settings and 2FA policies at a later stage from the WP 2FA entry in the WordPress menu."
+msgstr "Dobra robota :] Wtyczka została skonfigurowana. Możesz zawsze zmienić konfigurację wybierając uwierzytelnianie dwuskładnikowe (2FA) w menu WordPress."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:340
+msgid "Congratulations, you're almost there..."
+msgstr "Gratulacje, jesteś prawie gotowy do startu..."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:281
+#: includes/classes/Admin/Views/class-wizard-steps.php:287
+msgid "I'm ready, close the wizard"
+msgstr "Jestem gotowy, zamknij asystenta."
+
+#: includes/classes/Admin/Methods/class-totp.php:331
+msgid "Click the \"I'm ready\" button below when you complete the application setup process to proceed with the wizard."
+msgstr "Kliknij przycisk \"Jestem gotowy\" widoczny poniżej, kiedy ukończysz proces konfiguracji."
+
+#: includes/classes/Admin/Methods/class-totp.php:330
+msgid "From within the application scan the QR code provided on the left. Otherwise, enter the following code manually in the application:"
+msgstr "Zeskanuj kod QR widoczny po prawej za pomocą aplikacji lub wpisz kod samodzielnie."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:111
+msgid "Thank you for installing the WP 2FA plugin. This quick wizard will assist you with configuring the plugin and the two-factor authentication (2FA) settings for your user and the users on this website."
+msgstr "Dziękujemy za zainstalowanie wtyczki WP 2FA. Ten szybki kreator pomoże tobie skonfigurować wtyczkę i ustawienia uwierzytelniania dwuskładnikowego (2FA) dla twojego użytkownika i użytkowników na tej stronie."
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:430
+msgid "Also exclude users with super admin privilege"
+msgstr "Wyklucz także użytkowników z uprawnieniami superadministratora"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:299
+msgid "Also enforce 2FA on network users with super admin privileges"
+msgstr "Wymuszaj także uwierzytelnianie dwuskładnikowe (2FA) na użytkownikach sieciowych z uprawnieniami superadministratora"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:247
+msgid "Only super admins and site admins"
+msgstr "Tylko superadministratorzy i administratorzy witryny"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:84
+msgid "Secondary 2FA methods:"
+msgstr "Dodatkowe metody uwierzytelniania dwuskładnikowego (2FA):"
+
+#. translators: link to the knowledge base website
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:346
+#: includes/classes/Admin/Methods/class-totp.php:337
+msgid "Refer to the %s for more information on how to setup these apps and which apps are supported."
+msgstr "Zapoznaj się z %s, aby uzyskać więcej informacji na temat konfigurowania tych aplikacji i obsługiwanych aplikacji."
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:62
+msgid "Primary 2FA methods:"
+msgstr "Podstawowe metody uwierzytelniania dwuskładnikowego (2FA):"
+
+#: includes/classes/Admin/class-setup-wizard.php:368
+msgid "Continue with wizard"
+msgstr "Kontynuuj pracę z kreatorem"
+
+#: includes/classes/Admin/class-setup-wizard.php:367
+msgid "OK, close wizard"
+msgstr "OK, zamknij kreatora"
+
+#: includes/classes/Admin/class-setup-wizard.php:365
+msgid " entry in your WordPress dashboard menu."
+msgstr " wpis w menu kokpitu WordPress."
+
+#: includes/classes/Admin/class-setup-wizard.php:365
+msgid "If you cancel this wizard, the default plugin settings will be applied. You can always configure the plugin settings and two-factor authentication policies at a later stage from the "
+msgstr "Jeśli anulujesz tego kreatora, zostaną zastosowane domyślne ustawienia wtyczki. Zawsze możesz skonfigurować ustawienia wtyczki i zasady uwierzytelniania dwuskładnikowego na późniejszym etapie z poziomu sekcji "
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:146
+msgid "The plugin sends emails with one-time codes, blocked account notifications and more. Use the button below to confirm the plugin can successfully send emails."
+msgstr "Wtyczka wysyła wiadomości e-mail z kodami jednorazowymi, powiadomieniami o zablokowanych kontach i nie tylko. Użyj poniższego przycisku, aby potwierdzić, że wtyczka może pomyślnie wysyłać wiadomości e-mail."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:893
+msgid "When you enforce 2FA on users they have a grace period to configure 2FA. If they fail to configure it within the configured stipulated time, their account will be locked and have to be unlocked manually. Note that user accounts cannot be unlocked automatically, even if you change the settings. As a security precaution they always have to be unlocked them manually. Maximum grace period is 10 days."
+msgstr "Kiedy wymuszasz uwierzytelnianie dwuskładnikowe (2FA) na użytkownikach, mają oni okres karencji na skonfigurowanie 2FA. Jeśli nie skonfigurują go w określonym czasie, ich konto zostanie zablokowane i będzie musiało zostać odblokowane ręcznie. Pamiętaj, że kont użytkowników nie można odblokować automatycznie, nawet jeśli zmienisz ustawienia. Ze względów bezpieczeństwa zawsze należy je odblokować ręcznie. Maksymalny okres karencji wynosi 10 dni."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:87
+msgid "Exclude myself from 2FA policies"
+msgstr "Wykluczam się z zasad uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:86
+msgid "Continue anyway"
+msgstr "Kontynuuj mimo wszystko"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:79
+msgid "You are about to enforce 2FA instantly on all users, including yourself, however you have not yet configured your own 2FA method. What would you like to do?"
+msgstr "Masz zamiar natychmiast wymusić uwierzytelnianie dwuskładnikowe (2FA) na wszystkich użytkownikach, w tym na sobie, ale nie skonfigurowałeś jeszcze własnej metody 2FA. Co chciałbyś zrobić?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:78
+msgid "Exclude yourself?"
+msgstr "Wykluczasz się?"
+
+#. translators: %2s - the name of the site.
+#: includes/classes/class-wp2fa.php:593
+msgid "Since you have not enabled two-factor authentication for the user %1$1s on the website %2$2s within the grace period, your account has been locked."
+msgstr "Ponieważ nie włączyłeś uwierzytelniania dwuskładnikowego dla użytkownika %1$1s w witrynie internetowej %2$2s w okresie karencji, twoje konto zostało zablokowane."
+
+#. translators: The login code provided from the plugin.
+#: includes/classes/class-wp2fa.php:548
+msgid "Enter %1$1s to log in."
+msgstr "Wprowadź %1$1s, aby się zalogować."
+
+#: includes/classes/class-wp2fa.php:112 includes/classes/class-wp2fa.php:122
+#: includes/classes/class-wp2fa.php:123
+#: includes/classes/Utils/class-white-label.php:98
+#: includes/classes/Utils/class-white-label.php:108
+#: includes/classes/Utils/class-white-label.php:109
+msgid "Please enter the two-factor authentication (2FA) verification code below to login. Depending on your 2FA setup, you can get the code from the 2FA app or it was sent to you by email."
+msgstr "Proszę wpisz poniżej kod wygenerowany w aplikacji uwierzytelniania dwuskładnikowego (2FA) lub (w zależności od twoich ustawień) wysłany do ciebie mailem."
+
+#: includes/classes/Admin/Methods/class-backup-codes.php:228
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:93
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:171
+msgid "Backup codes"
+msgstr "Kody zapasowe"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:283
+msgid "Use my user email ("
+msgstr "Użyj adresu przypisanego do mojego użytkownika ("
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:227
+msgid "Limit access to 2FA settings"
+msgstr "Ogranicz dostęp do ustawień uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:815
+msgid "Redirect users after 2FA setup to"
+msgstr "Przekieruj użytkowników po skonfigurowaniu uwierzytelniania dwuskładnikowego (2FA) do"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:810
+msgid "Specify a URL of a page where you want to redirect the users once they complete the 2FA setup wizard. Leave empty for default behaviour, in which users are redirected back to the page from where they launched the wizard."
+msgstr "Określ adres URL strony, na którą chcesz przekierować użytkowników po ukończeniu kreatora konfiguracji uwierzytelniania dwuskładnikowego (2FA). Pozostaw puste dla domyślnego zachowania, w którym użytkownicy są przekierowywani z powrotem na stronę, z której uruchomili kreatora."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:808
+msgid "Do you want to redirect the user to a specific page after completing the 2FA setup wizard"
+msgstr "Czy chcesz przekierować użytkownika na określoną stronę po ukończeniu kreatora konfiguracji uwierzytelniania dwuskładnikowego (2FA)?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:770
+msgid "Redirect users after 2FA setup"
+msgstr "Przekieruj użytkowników po skonfigurowaniu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:767
+msgid "Specify the page where you want to redirect your users to after they complete the 2FA setup. This will override the global redirect setting."
+msgstr "Określ stronę, na którą chcesz przekierować użytkowników po zakończeniu konfiguracji uwierzytelniania dwuskładnikowego (2FA). Zastąpi to globalne ustawienie przekierowania."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:710
+msgid "Frontend 2FA settings page URL"
+msgstr "Adres URL strony ustawień frontendu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:690
+msgid "Frontend 2FA settings page"
+msgstr "Strona ustawień frontendu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:313
+msgid "Sites :"
+msgstr "Witryny :"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:309
+msgid "These sub-sites"
+msgstr "Te podstrony"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:277
+msgid "Roles :"
+msgstr "Role :"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:261
+msgid "Users :"
+msgstr "Użytkownicy :"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:99
+msgid "Backup codes are a secondary method which you can use to log in to the website in case the primary 2FA method is unavailable. Therefore they can't be enabled and used as a primary method."
+msgstr "Kody zapasowe to dodatkowa metoda, której możesz użyć do zalogowania się na stronie internetowej w przypadku, gdy podstawowa metoda uwierzytelniania dwuskładnikowego (2FA) jest niedostępna. Dlatego nie można ich włączyć i używać jako metody podstawowej."
+
+#: includes/classes/Admin/class-user-notices.php:201
+#: includes/classes/Admin/class-user-notices.php:210
+#: includes/classes/Admin/class-user-notices.php:219
+#: includes/classes/Admin/class-user-notices.php:228
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:317
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:330
+msgid "Only plain text is allowed."
+msgstr "Dozwolony jest tylko zwykły tekst."
+
+#: includes/classes/Admin/class-user-notices.php:201
+#: includes/classes/Admin/class-user-notices.php:210
+#: includes/classes/Admin/class-user-notices.php:219
+#: includes/classes/Admin/class-user-notices.php:228
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:317
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:330
+msgid "Note:"
+msgstr "Adnotacja:"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:308
+msgid "2FA code page text"
+msgstr "Tekst strony z kodem uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:302
+msgid "This is the text shown to the users on the page when they are asked to enter the 2FA code. To change the default text, simply type it in the below placeholder."
+msgstr "Jest to tekst wyświetlany użytkownikom na stronie, gdy są proszeni o wprowadzenie kodu uwierzytelniania dwuskładnikowego (2FA). Aby zmienić domyślny tekst, po prostu wpisz go w poniższy symbol zastępczy."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-white-label.php:300
+msgid "Change the default text used in the 2FA code page"
+msgstr "Zmień domyślny tekst używany na stronie kodu uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-user-listing.php:62
+msgid "2FA Status"
+msgstr "Status uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/class-wp2fa.php:149
+#: includes/classes/Utils/class-white-label.php:138
+msgid "Congratulations! You are all set."
+msgstr "Gratulacje. Konfiguracja zakończona pomyślnie :]"
+
+#: includes/classes/Admin/class-user-profile.php:390
+msgid "Any unsaved changes will be lost!"
+msgstr "Wszelkie niezapisane zmiany zostaną utracone!"
+
+#: includes/classes/Admin/class-user-profile.php:389
+msgid "Are you sure?"
+msgstr "Czy jesteś pewien?"
+
+#: includes/classes/Utils/class-user-utils.php:371
+msgid "Locked"
+msgstr "Zablokowane"
+
+#: includes/classes/Utils/class-user-utils.php:370
+msgid "Not allowed"
+msgstr "Niedozwolone"
+
+#: includes/classes/Utils/class-user-utils.php:369
+msgid "Not required & not configured"
+msgstr "Niewymagane i nieskonfigurowane"
+
+#: includes/classes/Utils/class-user-utils.php:368
+msgid "Configured (but not required)"
+msgstr "Skonfigurowane (ale nie wymagane)"
+
+#: includes/classes/Utils/class-user-utils.php:367
+msgid "Required but not configured"
+msgstr "Wymagane, ale nieskonfigurowane"
+
+#: includes/classes/Utils/class-user-utils.php:366
+msgid "Configured"
+msgstr "Skonfigurowano"
+
+#. translators: Grace period expiration label. %s: Date and time formatted
+#. using WordPress date and time formats.
+#: includes/classes/Utils/class-date-time-utils.php:66
+msgid "before %s"
+msgstr "przed %s"
+
+#: includes/classes/Utils/class-debugging.php:65
+msgid "Current memory usage: "
+msgstr "Bieżące użycie pamięci: "
+
+#: includes/classes/Admin/Methods/class-totp.php:333
+msgid "Click the below button to {reconfigure_or_configure} the current 2FA method. Note that once reset you will have to re-scan the QR code on all devices you want this to work on because the previous codes will stop working."
+msgstr "Kliknij poniższy przycisk, aby {reconfigure_or_configure} bieżącą metodę uwierzytelniania dwuskładnikowego (2FA). Pamiętaj, że po zresetowaniu będziesz musiał ponownie zeskanować kod QR na wszystkich urządzeniach, na których chcesz, aby działał, ponieważ poprzednie kody przestaną działać."
+
+#: includes/classes/Admin/class-user-profile.php:223
+msgid "The user has already configured 2FA. When you reset the user's current 2FA configuration, the user can log back in with just the username and password."
+msgstr "Użytkownik skonfigurował już uwierzytelniania dwuskładnikowego (2FA). Gdy zresetujesz bieżącą konfigurację 2FA użytkownika, użytkownik może zalogować się ponownie przy użyciu tylko nazwy użytkownika i hasła."
+
+#: includes/classes/Admin/class-user-profile.php:96
+msgid "This user is excluded from configuring 2FA."
+msgstr "Ten użytkownik jest wykluczony z konfiguracji uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/class-user-profile.php:92
+msgid "This user is required to setup 2FA but has not yet done so."
+msgstr "Ten użytkownik musi skonfigurować uwierzytelnianie dwuskładnikowe (2FA), ale jeszcze tego nie zrobił."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:174
+#: includes/classes/Admin/Views/class-wizard-steps.php:180
+#: includes/classes/Admin/Views/class-wizard-steps.php:321
+#: includes/classes/Admin/Views/class-wizard-steps.php:324
+#: includes/classes/Admin/Views/class-wizard-steps.php:350
+msgid "Close wizard"
+msgstr "Zamknij kreatora"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:293
+msgid "Email address"
+msgstr "Adres e-mail"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:327
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:268
+msgid "Authentication Code"
+msgstr "Kod uwierzytelnienia"
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:335
+msgid "This email was sent by the WP 2FA plugin to test the email delivery."
+msgstr "Ten e-mail został wysłany przez wtyczkę WP 2FA w celu przetestowania dostarczania wiadomości e-mail."
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:334
+msgid "Test email from WP 2FA"
+msgstr "Przetestuj wiadomość e-mail z WP 2FA"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:487
+msgid "Send test email"
+msgstr "Wyślij testową wiadomość e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:153
+msgid "Test email delivery"
+msgstr "Przetestuj dostarczanie wiadomości e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:144
+msgid "Email delivery test"
+msgstr "Test dostarczania wiadomości e-mail"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:242
+msgid "Only super admins"
+msgstr "Tylko superadministratorzy"
+
+#: includes/classes/Utils/class-date-time-utils.php:41
+msgid "no grace period"
+msgstr "brak okresu karencji"
+
+#: includes/functions/core.php:241
+msgid "Email delivery failed"
+msgstr "Dostarczenie wiadomości e-mail nie powiodło się"
+
+#: includes/functions/core.php:240
+msgid "Email successfully sent"
+msgstr "E-mail został pomyślnie wysłany"
+
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:330
+msgid "complete list of supported 2FA apps."
+msgstr "pełna lista obsługiwanych aplikacji uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:330
+msgid "One-time code via 2FA App (TOTP) - "
+msgstr "Jednorazowy kod przez aplikację"
+
+#: includes/functions/core.php:239
+msgid "Processing Update"
+msgstr "Aktualizacja przetwarzania"
+
+#: includes/classes/class-wp2fa.php:150
+#: includes/classes/Utils/class-white-label.php:139
+msgid "Learn more"
+msgstr "Dowiedz się więcej"
+
+#: includes/classes/class-wp2fa.php:150
+#: includes/classes/Utils/class-white-label.php:139
+msgid "Two factor authentication ensures only you have access to your account by creating an added layer of security when logging in -"
+msgstr "Uwierzytelnienie dwuskładnikowe (2FA) daje pewność, że tylko Ty masz dostęp do swojego konta."
+
+#: includes/classes/class-wp2fa.php:150
+#: includes/classes/Utils/class-white-label.php:139
+msgid "In order to keep this site - and your details secure, this website’s administrator requires you to enable 2FA authentication to continue."
+msgstr "Aby strona i Twoje dane pozostawały bezpieczne, administrator serwisu wymaga włączenia uwierzytelnienia 2FA."
+
+#: includes/classes/class-wp2fa.php:150
+#: includes/classes/Utils/class-white-label.php:139
+msgid "You are required to configure 2FA."
+msgstr "Musisz skonfigurować uwierzytelnianie dwuskładnikowe (2FA)."
+
+#: includes/classes/Admin/class-setup-wizard.php:654
+msgid "Welcome to WP 2FA"
+msgstr "Witamy w WP 2FA"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:600
+msgid "Note: If users do not configure it within the configured stipulated time, their account will be locked and have to be unlocked manually."
+msgstr "Uwaga: jeśli użytkownicy nie skonfigurują go w określonym czasie, ich konto zostanie zablokowane i będzie musiało zostać odblokowane ręcznie."
+
+#: includes/classes/Admin/class-setup-wizard.php:524
+msgid "When you configure the 2FA policies and require users to configure 2FA, they can either have a grace period to configure 2FA, or can be required to configure 2FA before the next time they login. Choose which method you'd like to use:"
+msgstr "Gdy skonfigurujesz zasady 2FA i zażądasz od użytkowników skonfigurowania 2FA, mogą oni mieć okres karencji na skonfigurowanie 2FA lub mogą być zobowiązani do skonfigurowania 2FA przed następnym logowaniem. Wybierz metodę, której chcesz użyć:"
+
+#: includes/classes/Admin/class-setup-wizard.php:514
+msgid "Exclude sites"
+msgstr "Wyklucz witryny"
+
+#: includes/classes/Admin/class-setup-wizard.php:506
+msgid "Exclude users"
+msgstr "Wyklucz użytkowników"
+
+#: includes/classes/Admin/class-setup-wizard.php:499
+msgid "2FA policy"
+msgstr "Polityka 2FA"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:253
+msgid "Your backup codes"
+msgstr "Twoje kody zapasowe"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:198
+msgid "Generate codes"
+msgstr "Generuj kody"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:321
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:262
+msgid "Verify configuration"
+msgstr "Zweryfikuj konfigurację"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:945
+msgid "Hide the Remove 2FA button on user profile pages"
+msgstr "Ukryj przycisk \"Usuń 2FA\" na stronach profilu użytkownika."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:939
+msgid "Hide the Remove 2FA button"
+msgstr "Ukryj przycisk \"Usuń 2FA\""
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:934
+msgid "Users can configure and also disable 2FA on their profile by clicking the \"Remove 2FA\" button. Enable this setting to disable the Remove 2FA button so users cannot disable 2FA from their user profile."
+msgstr "Użytkownicy mogą skonfigurować, a także wyłączyć 2FA na swoim profilu, klikając przycisk \"Usuń 2FA\". Włącz to ustawienie, aby wyłączyć przycisk \"Usuń 2FA\", aby użytkownicy nie mogli wyłączyć 2FA w swoim profilu użytkownika."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:932
+msgid "Should users be allowed to disable 2FA from their user profile?"
+msgstr "Czy użytkownicy powinni mieć możliwość wyłączenia 2FA w swoim profilu użytkownika?"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:543
+msgid "Give users a grace period to configure 2FA"
+msgstr "Daj użytkownikom okres karencji na skonfigurowanie 2FA"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:536
+msgid "Users have to configure 2FA straight away."
+msgstr "Użytkownicy muszą od razu skonfigurować 2FA."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:891
+msgid "Should users be asked to setup 2FA instantly or should they have a grace period?"
+msgstr "Czy użytkownicy powinni być proszeni o natychmiastowe skonfigurowanie 2FA, czy też powinni mieć okres karencji?"
+
+#. translators: %s: tag name.
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:194
+msgid "Use the %s html tag in the email templates to include the URL of the 2FA configuration page when notifying the users to configure two-factor authentication."
+msgstr "Użyj znacznika %s html w szablonach wiadomości e-mail, aby dołączyć adres URL strony konfiguracji 2FA podczas powiadamiania użytkowników o skonfigurowaniu uwierzytelniania dwuskładnikowego."
+
+#: includes/functions/core.php:238
+msgid "Close Wizard & Refresh"
+msgstr "Zamknij asystenta i odśwież."
+
+#: includes/functions/core.php:237
+msgid "Your account just got more secure"
+msgstr "Twoje konto właśnie stało się dużo bezpieczniejsze."
+
+#: includes/functions/core.php:236
+msgid "Congratulations"
+msgstr "Gratulacje"
+
+#: includes/classes/Admin/class-settings-page.php:388
+msgid "WP 2FA User Page"
+msgstr "Strona użytkownika WP 2FA"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:599
+msgid "WP 2FA Plugin"
+msgstr "Wtyczka WP 2FA"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:598
+msgid "Page generated by"
+msgstr "Strona wygenerowana przez"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:305
+msgid "Please only use alphanumeric text. Your display name has not been updated."
+msgstr "Używaj wyłącznie tekstu alfanumerycznego. twoja nazwa wyświetlana nie została zaktualizowana."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:285
+msgid "Please provide a valid email address. Your email address has not been updated."
+msgstr "Podaj prawidłowy adres e-mail. Twój adres e-mail nie został zaktualizowany."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:430
+msgid "Uncheck to disable this message."
+msgstr "Usuń zaznaczenie, aby wyłączyć tę wiadomość."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:424
+msgid "Send this email"
+msgstr "Wyślij tę wiadomość e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:417
+msgid "You must provide a new page slug."
+msgstr "Musisz podać nową uproszczoną nazwę strony."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:447
+msgid "You must specify at least one role or user"
+msgstr "Musisz określić co najmniej jedną rolę lub użytkownika"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:743
+msgid "View Page"
+msgstr "Zobacz stronę"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:743
+msgid "Edit Page"
+msgstr "Edytuj stronę"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:685
+msgid "If your users do not have access to the WordPress dashboard (because you use custom user profile pages) enable this option. Once enabled, the plugin creates a page which ONLY authenticated users can access to configure their user 2FA settings. A link to this page is sent in the 2FA welcome email."
+msgstr "Jeśli twoi użytkownicy nie mają dostępu do kokpitu WordPress (ponieważ korzystasz z własnych stron profilu użytkownika), włącz tę opcję. Po włączeniu wtyczka tworzy stronę, do której TYLKO uwierzytelnieni użytkownicy mogą uzyskać dostęp w celu skonfigurowania ustawień 2FA użytkownika. Odnośnik do tej strony jest wysyłany w powitalnej wiadomości e-mail 2FA."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:683
+msgid "Can users access the WordPress dashboard or you have custom profile pages? "
+msgstr "Czy użytkownicy mogą uzyskać dostęp do kokpitu WordPress lub masz własne strony profilu? "
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:256
+msgid "Only for specific users and roles"
+msgstr "Tylko dla określonych użytkowników i ról"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:190
+msgid "You can edit this page using the page editor, like you do with all other pages."
+msgstr "Możesz edytować tę stronę za pomocą edytora stron, tak jak w przypadku wszystkich innych stron."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:188
+msgid "The plugin created the 2FA settings page with the URL:"
+msgstr "Wtyczka utworzyła stronę ustawień 2FA z adresem URL:"
+
+#: includes/classes/Shortcodes/class-shortcodes.php:151
+msgid "Login here."
+msgstr "Zaloguj się"
+
+#: includes/classes/Shortcodes/class-shortcodes.php:57
+#: includes/classes/Shortcodes/class-shortcodes.php:193
+msgid "Your login just got more secure."
+msgstr "Twoje logowanie właśnie stało się bezpieczniejsze."
+
+#: includes/classes/Shortcodes/class-shortcodes.php:56
+#: includes/classes/Shortcodes/class-shortcodes.php:192
+msgid "All done."
+msgstr "Wszystko zrobione."
+
+#: includes/classes/class-wp2fa.php:611
+msgid "You can configure 2FA from this page:"
+msgstr "Możesz skonfigurować uwierzytelnianie dwuskładnikowe (2FA) na tej stronie:"
+
+#. Plugin Name of the plugin
+#: wp-2fa.php
+msgid "WP 2FA - Two-factor authentication for WordPress"
+msgstr "WP 2FA - uwierzytelnianie dwuskładnikowe dla WordPress"
+
+#: includes/functions/login-header.php:85
+msgid "Powered by WordPress"
+msgstr "Oparte na WordPressie"
+
+#: includes/functions/login-header.php:84
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. translators: Login screen title. 1: Login screen name, 2: Network or site
+#. name
+#: includes/functions/login-header.php:36
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
+
+#. translators: %s: the site's domain
+#: includes/classes/Admin/Methods/class-backup-codes.php:271
+msgid "Two-Factor Backup Codes for %s"
+msgstr "Kody zapasowe logowania dwuskładnikowego dla %s"
+
+#. translators: %s: count
+#: includes/classes/Admin/Methods/class-backup-codes.php:266
+msgid "%s unused code remaining."
+msgid_plural "%s unused codes remaining."
+msgstr[0] "%s pozostał niewykorzystany kod."
+msgstr[1] "%s pozostały niewykorzystane kody."
+msgstr[2] "%s pozostało niewykorzystanych kodów."
+
+#: includes/classes/class-wp2fa.php:125
+#: includes/classes/Utils/class-white-label.php:111
+msgid "Enter a backup verification code."
+msgstr "Wpisz zapasowy kod weryfikacyjny."
+
+#: includes/classes/Authenticator/class-login.php:741
+#: includes/classes/Authenticator/class-reset-passord.php:156
+msgid "Resend Code"
+msgstr "Wyślij kod ponownie"
+
+#: includes/classes/Authenticator/class-login.php:719
+msgid "Log In"
+msgstr "Zaloguj się"
+
+#: includes/classes/Authenticator/class-login.php:1185
+#: includes/classes/Authenticator/class-login.php:1239
+msgid "Verification Code:"
+msgstr "Kod weryfikacyjny:"
+
+#: includes/classes/Authenticator/class-login.php:1083
+msgid "You have logged in successfully."
+msgstr "Zalogowano się pomyślnie."
+
+#: includes/classes/Authenticator/class-login.php:1034
+#: includes/classes/Authenticator/class-reset-passord.php:217
+msgid "A new code has been sent."
+msgstr "Nowy kod został wysłany."
+
+#: includes/classes/Authenticator/class-login.php:1009
+msgid "ERROR: Invalid backup code."
+msgstr "BŁĄD: nieprawidłowy kod kopii zapasowej."
+
+#: includes/classes/Authenticator/class-login.php:983
+#: includes/classes/Authenticator/class-login.php:1036
+#: includes/classes/Authenticator/class-reset-passord.php:219
+msgid "ERROR: Invalid verification code."
+msgstr "BŁĄD: nieprawidłowy kod weryfikacyjny."
+
+#. translators: %s: site name.
+#: includes/classes/Authenticator/class-login.php:803
+msgid "&larr; Back to %s"
+msgstr "&larr; Powrót do %s"
+
+#: includes/classes/Authenticator/class-login.php:798
+msgid "Are you lost?"
+msgstr "Potrzebujesz pomocy?"
+
+#: includes/classes/Authenticator/class-login.php:775
+msgid "Or, use a backup code."
+msgstr "Możesz też użyć kodu zapasowego."
+
+#: includes/classes/Authenticator/class-login.php:612
+msgid "Cheatin&#8217; uh?"
+msgstr "Oszukujemy&#8217;  co?"
+
+#: includes/classes/Authenticator/class-login.php:215
+#: includes/classes/Authenticator/class-login.php:558
+#: includes/classes/Authenticator/class-login.php:962
+#: includes/classes/Authenticator/class-login.php:979
+#: includes/classes/Authenticator/class-login.php:1004
+#: includes/classes/Authenticator/class-login.php:1030
+#: includes/classes/Authenticator/class-reset-passord.php:80
+#: includes/classes/Authenticator/class-reset-passord.php:196
+#: includes/classes/Authenticator/class-reset-passord.php:213
+msgid "Failed to create a login nonce."
+msgstr "Nie udało się utworzyć identyfikatora jednorazowego logowania."
+
+#: includes/classes/Authenticator/class-login.php:512
+msgid "Your user account has been locked because you have not configured 2FA within the grace period. Please contact the website administrator to unlock your user and you can configure 2FA."
+msgstr "Twoje konto zostało zablokowane, ponieważ nie skonfigurowałeś 2FA w wymaganym czasie. Skontaktuj się z administratorem strony, aby odblokwać konto i skonfigurować uwierzytelnianie 2FA."
+
+#: includes/classes/Authenticator/class-login.php:474
+msgid "Error: API login for user disabled."
+msgstr "Błąd: Logowanie po API dla użytkownika jest wyłączone."
+
+#: includes/classes/class-wp2fa.php:605
+msgid "Your user on {site_name} has been unlocked"
+msgstr "Twój użytkownik {site_name} został odblokowany."
+
+#: includes/classes/class-wp2fa.php:614 includes/classes/class-wp2fa.php:624
+msgid "WP 2FA plugin"
+msgstr "Wtyczka WP 2FA"
+
+#: includes/classes/class-wp2fa.php:608
+msgid "has been unlocked. Please configure two-factor authentication within the grace period, otherwise your account will be locked again."
+msgstr "został odblokowany. Prosimy o skonfigurowanie 2FA w wymaganym czasie, w przciwnym razie konto zostanie zablokowane ponownie."
+
+#: includes/classes/class-wp2fa.php:608
+msgid "Your user"
+msgstr "Twój użytkownik"
+
+#: includes/classes/class-wp2fa.php:560 includes/classes/class-wp2fa.php:608
+#: includes/classes/class-wp2fa.php:620
+msgid "Hello,"
+msgstr "Witaj,"
+
+#: includes/classes/class-wp2fa.php:587
+msgid "Your user on {site_name} has been locked"
+msgstr "Twój użytkownik {site_name} został zablokowany."
+
+#: includes/classes/class-wp2fa.php:598
+msgid "Contact your website administrator to unlock your account."
+msgstr "Aby odblokować konto, skontaktuj się z administratorem strony."
+
+#: includes/classes/class-wp2fa.php:608 includes/classes/class-wp2fa.php:620
+msgid "on the website"
+msgstr "na witrynie internetowej"
+
+#: includes/classes/class-wp2fa.php:589
+msgid "Hello."
+msgstr "Witaj,"
+
+#: includes/classes/class-wp2fa.php:544
+msgid "Your login confirmation code for {site_name}"
+msgstr "Twój kod logowania na {site_name}"
+
+#: includes/classes/class-wp2fa.php:554 includes/classes/class-wp2fa.php:583
+#: includes/classes/class-wp2fa.php:601
+msgid "WP 2FA plugin."
+msgstr "Wtyczka WP 2FA."
+
+#: includes/classes/class-wp2fa.php:553 includes/classes/class-wp2fa.php:582
+#: includes/classes/class-wp2fa.php:600 includes/classes/class-wp2fa.php:614
+#: includes/classes/class-wp2fa.php:624
+msgid "Email sent by"
+msgstr "E-mail wysłany przez"
+
+#: includes/classes/class-wp2fa.php:552 includes/classes/class-wp2fa.php:581
+#: includes/classes/class-wp2fa.php:599 includes/classes/class-wp2fa.php:614
+msgid "Thank you."
+msgstr "Dziękujemy."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:274
+msgid "Please provide a display name."
+msgstr "Podaj nazwę wyświetlaną."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:264
+msgid "Please provide an email address"
+msgstr "Podaj adres e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:198
+msgid "This is the email sent to a user when the user's account has been unlocked."
+msgstr "Jest to wiadomość e-mail wysyłana do użytkownika po odblokowaniu jego konta."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:197
+msgid "User account unlocked email"
+msgstr "Odblokowane konto użytkownika e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:193
+msgid "This is the email sent to a user upon grace period expiry."
+msgstr "Jest to wiadomość e-mail wysyłana do użytkownika po wygaśnięciu okresu karencji."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:192
+msgid "User account locked email"
+msgstr "E-mail z blokadą konta użytkownika"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:188
+msgid "This is the email sent to a user when a login code is required."
+msgstr "Jest to wiadomość e-mail wysyłana do użytkownika, gdy wymagany jest kod logowania."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:187
+msgid "Login code email"
+msgstr "Email z kodem logowania"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:448
+msgid "Available template tags:"
+msgstr "Dostępne tagi szablonów:"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:446
+msgid "Email body"
+msgstr "Treść wiadomości"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:437
+msgid "Email subject"
+msgstr "Tytuł wiadomości e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:415
+msgid "Email Templates"
+msgstr "Szablony wiadomości e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:132
+msgid "Display Name:"
+msgstr "Wyświetlana nazwa:"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:131
+msgid "Email Address:"
+msgstr "Adres Email:"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:124
+msgid "Use another email address"
+msgstr "Użyj innego adresu e-mail"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:109
+msgid "From email & name"
+msgstr "Z adresu e-mail i imienia"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:104
+msgid "Use these settings to customize the \"from\" name and email address for all correspondence sent from our plugin."
+msgstr "Użyj tych ustawień, aby dostosować nazwę \"od\" i adres e-mail dla całej korespondencji wysyłanej z naszej wtyczki."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:102
+msgid "Which email address should the plugin use as a from address?"
+msgstr "Którego adresu e-mail wtyczka powinna używać jako adresu od?"
+
+#: includes/classes/Admin/class-settings-page.php:288
+#: includes/classes/Admin/class-settings-page.php:357
+msgid "Please ensure both custom email address and display name are provided."
+msgstr "Upewnij się, że podano zarówno własny adres e-mail, jak i nazwę wyświetlaną."
+
+#: includes/classes/Admin/class-settings-page.php:267
+#: includes/classes/Admin/class-settings-page.php:346
+msgid "2FA Settings Updated"
+msgstr "Zaktualizowano ustawienia uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:392
+msgid "User 2FA settings have been removed."
+msgstr "Ustawienia uwierzytelniania dwuskładnikowego (2FA) użytkownika zostały usunięte."
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:376
+msgid "Your 2FA settings have been removed."
+msgstr "Twoje ustawienia uwierzytelniania dwuskładnikowego (2FA) zostały usunięte."
+
+#: includes/classes/Admin/class-settings-page.php:269
+#: includes/classes/Admin/class-settings-page.php:283
+#: includes/classes/Admin/class-settings-page.php:290
+#: includes/classes/Admin/class-settings-page.php:313
+#: includes/classes/Admin/class-settings-page.php:338
+#: includes/classes/Admin/class-settings-page.php:348
+#: includes/classes/Admin/class-settings-page.php:359
+#: includes/classes/Admin/class-settings-page.php:369
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:378
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:394
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:410
+msgid "Dismiss this notice."
+msgstr "Odrzuć to powiadomienie."
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:408
+msgid "User account successfully unlocked. User can login again."
+msgstr "Konto użytkownika odblokowane. Może być ponownie używane."
+
+#: includes/classes/Admin/class-settings-page.php:222
+msgid "Configure 2FA Settings"
+msgstr "Skonfiguruj ustawienia 2FA"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:335
+msgid "You must specify at least one sub-site"
+msgstr "Musisz określić co najmniej jedną podstronę"
+
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:55
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:101
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:152
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:244
+#: includes/classes/Admin/Helpers/class-ajax-helper.php:278
+#: includes/classes/Admin/SettingsPages/class-settings-page-email.php:251
+msgid "Nonce verification failed."
+msgstr "Weryfikacja kodu jednorazowego nie powiodła się."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:195
+msgid "Delete data upon uninstall"
+msgstr "Usuń dane po odinstalowaniu"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:189
+msgid "Delete data"
+msgstr "Usuwanie danych"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:184
+msgid "The plugin saves its settings in the WordPress database. By default the plugin settings are kept in the database so if it is installed again, you do not have to reconfigure the plugin. Enable this setting to delete the plugin settings from the database upon uninstall."
+msgstr "Wtyczka zapisuje swoje ustawienia w bazie danych WordPress. Domyślnie ustawienia wtyczki są przechowywane w bazie danych, więc jeśli zostanie ponownie zainstalowana, nie musisz ponownie konfigurować wtyczki. Włącz to ustawienie, aby usunąć ustawienia wtyczki z bazy danych po odinstalowaniu."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:182
+msgid "Do you want to delete the plugin data from the database upon uninstall"
+msgstr "Czy chcesz usunąć dane wtyczki z bazy danych po odinstalowaniu?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:233
+msgid "Hide settings from other administrators"
+msgstr "Ukryj ustawienia przed innymi administratorami"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:222
+msgid "Use this setting to hide this plugin configuration area from all other admins."
+msgstr "Użyj tego ustawienia, aby ukryć ten obszar konfiguracji wtyczki przed wszystkimi innymi administratorami."
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-general.php:220
+msgid "Limit 2FA settings access"
+msgstr "Ogranicz dostęp do ustawień uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:588
+msgid "Seconds"
+msgstr "Sekund/y"
+
+#: includes/classes/Admin/class-setup-wizard.php:522
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:899
+msgid "Grace period"
+msgstr "Okres odroczenia"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:456
+msgid "Do you want to exclude all the users of a site from 2FA? "
+msgstr "Czy chcesz wykluczyć wszystkich użytkowników witryny z uwierzytelniania dwuskładnikowego (2FA)? "
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:368
+msgid "Do you want to exclude any users or roles from 2FA? "
+msgstr "Czy chcesz wykluczyć dowolnych użytkowników lub role z uwierzytelniania dwuskładnikowego (2FA)? "
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:341
+msgid "Do not enforce on any users"
+msgstr "Nie wymuszaj na żadnych użytkownikach"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:227
+msgid "Enforce 2FA on"
+msgstr "Wymuś uwierzytelnianie dwuskładnikowe (2FA) na"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:219
+msgid "When you enforce 2FA the users will be prompted to configure 2FA the next time they login. Users have a grace period for configuring 2FA. You can configure the grace period and also exclude user(s) or role(s) in this settings page. "
+msgstr "Gdy wymusisz uwierzytelnianie dwuskładnikowe (2FA), użytkownicy zostaną poproszeni o skonfigurowanie 2FA przy następnym logowaniu. Użytkownicy mają okres karencji na skonfigurowanie 2FA. Możesz skonfigurować okres karencji, a także wykluczyć użytkowników lub role na tej stronie ustawień. "
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:217
+msgid "Do you want to enforce 2FA for some, or all the users? "
+msgstr "Czy chcesz wymusić uwierzytelnianie dwuskładnikowe (2FA) dla niektórych, czy dla wszystkich użytkowników? "
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:183
+msgid "One-time code via email (HOTP)"
+msgstr "Jednorazowy kod dostępu wysłany mailem (HOTP)"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:58
+msgid "Select the methods"
+msgstr "Wybierz metody"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:173
+msgid "Use the settings below to configure the emails which are sent to users as part of the 2FA plugin. If you have any questions send us an email at"
+msgstr "Użyj poniższych ustawień, aby skonfigurować wiadomości e-mail wysyłane do użytkowników w ramach wtyczki 2FA. Jeśli masz jakieś pytania, wyślij nam e-mail na adres"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:123
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:131
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:152
+msgid "Use the settings below to configure the properties of the two-factor authentication on your website and how users use it. If you have any questions send us an email at"
+msgstr "Użyj poniższych ustawień, aby skonfigurować właściwości uwierzytelniania dwuskładnikowego na swojej witrynie internetowej i sposób korzystania z niego przez użytkowników. Jeśli masz jakieś pytania, wyślij nam e-mail na adres"
+
+#: includes/classes/Admin/class-help-contact-us.php:59
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:100
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:47
+msgid "These settings have been disabled by your site administrator, please contact them for further assistance."
+msgstr "Ustawienia zostały zablokowane przez administratora strony. Skontaktuj się z nim w celu uzyskania dalszych informacji,"
+
+#: includes/classes/Admin/class-user-profile.php:616
+msgid "Unlock user"
+msgstr "Odblokuj użytkownika"
+
+#: includes/classes/Admin/class-user-profile.php:211
+msgid "Configure 2FA"
+msgstr "Skonfiguruj 2FA (uwierzytelnienie dwuskładnikowe)"
+
+#: includes/classes/Admin/class-user-profile.php:446
+#: includes/classes/Admin/Views/class-wizard-steps.php:63
+msgid "Next Step"
+msgstr "Następny krok"
+
+#: includes/classes/Admin/class-user-profile.php:450
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:317
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:343
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:259
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:282
+#: includes/classes/Admin/Views/class-wizard-steps.php:64
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: includes/classes/Admin/class-user-profile.php:235
+msgid "Reset 2FA configuration"
+msgstr "Zresetuj konfigurację uwierzytelniania dwuskładnikowego (2FA)"
+
+#: includes/classes/Admin/class-user-profile.php:248
+msgid "Unlock user and reset the grace period"
+msgstr "Odblokuj użytkownika i zresetuj okres karencji"
+
+#: includes/classes/Admin/class-user-profile.php:215
+msgid "Configure Two-factor authentication (2FA)"
+msgstr "Konfiguruj 2FA (uwierzytelnianie dwuskładnikowe)"
+
+#: includes/classes/Admin/class-user-profile.php:393
+#: includes/classes/Admin/class-user-profile.php:537
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:215
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:704
+msgid "No"
+msgstr "Nie"
+
+#: includes/classes/Admin/class-user-profile.php:392
+#: includes/classes/Admin/class-user-profile.php:536
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:211
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:697
+msgid "Yes"
+msgstr "Tak"
+
+#: includes/classes/Admin/class-user-profile.php:534
+msgid "Are you sure you want to remove two-factor authentication and lower the security of your user account?"
+msgstr "Na pewno chcesz usunąć weryfikację dwuskładnikową i obniżyć bezpieczeństwo konta?"
+
+#: includes/classes/Admin/class-user-profile.php:533
+msgid "Remove 2FA?"
+msgstr "Usunąć uwierzytelnienie 2FA?"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:893
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:219
+msgid "Learn more."
+msgstr "Dowiedz się więcej."
+
+#: includes/classes/Admin/class-user-profile.php:148
+msgid "unused backup codes remaining."
+msgstr "niewykorzystanych kodów zapasowych."
+
+#: includes/classes/Admin/class-user-listing.php:139
+#: includes/classes/Admin/class-user-profile.php:140
+msgid "Remove 2FA"
+msgstr "Usuń 2FA"
+
+#: includes/classes/class-wp2fa.php:167
+#: includes/classes/Utils/class-white-label.php:156
+msgid "Add two-factor authentication to strengthen the security of your user account."
+msgstr "Dodaj uwierzytelnianie dwuskłądnikowe (2FA) aby zwiększyć bezpieczeństwo konta."
+
+#: includes/classes/Admin/class-settings-page.php:61
+#: includes/classes/Admin/class-settings-page.php:115
+#: includes/classes/Admin/class-settings-page.php:136
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:96
+#: includes/classes/Admin/SettingsPages/class-settings-page-render.php:42
+msgid "WP 2FA Settings"
+msgstr "Ustawienia WP 2FA"
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:96
+msgid "Change email address"
+msgstr "Zmień adres e-mail"
+
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:97
+msgid "Reset Key"
+msgstr "Resetuj klucze"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:355
+msgid "Grace period must be at least 1 day/hour"
+msgstr "Okres karencji musi wynosić co najmniej 1 dzień/godzinę."
+
+#: includes/classes/Admin/class-setup-wizard.php:503
+#: includes/classes/Admin/class-setup-wizard.php:527
+msgid "All done"
+msgstr "Wszystko gotowe"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:552
+msgid "hours"
+msgstr "Godziny"
+
+#: includes/classes/Admin/class-setup-wizard.php:523
+msgid "How long should the grace period for your users be?"
+msgstr "Jak długi powinien być okres karencji dla twoich użytkowników?"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:466
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:475
+msgid "Exclude the following sites"
+msgstr "Wyklucz następujące witryny"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:458
+msgid "If you are enforcing 2FA on all users but for some reason you do not want to enforce it on a specific sub site, specify the sub site name below:"
+msgstr "Jeśli wymuszasz uwierzytelnianie dwuskładnikowe (2FA) na wszystkich użytkownikach, ale z jakiegoś powodu nie chcesz wymuszać go na określonej podstronie, określ nazwę podstrony poniżej:"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:403
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:408
+msgid "Exclude the following roles"
+msgstr "Wyklucz następujące role"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:378
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:381
+msgid "Exclude the following users"
+msgstr "Wyklucz następujących użytkowników"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:370
+msgid "If you are enforcing 2FA on all users but for some reason you would like to exclude individual user(s) or users with a specific role, you can exclude them below"
+msgstr "Jeśli wymuszasz uwierzytelnianie dwuskładnikowe (2FA) na wszystkich użytkownikach, ale z jakiegoś powodu chcesz wykluczyć poszczególnych użytkowników lub użytkowników z określoną rolą, możesz wykluczyć ich poniżej"
+
+#: includes/classes/Admin/Views/class-first-time-wizard-steps.php:235
+msgid "All users"
+msgstr "Wszystkich użytkowników"
+
+#: includes/classes/Admin/class-setup-wizard.php:490
+#: includes/classes/Admin/class-setup-wizard.php:496
+#: includes/classes/Admin/class-setup-wizard.php:502
+#: includes/classes/Admin/class-setup-wizard.php:509
+#: includes/classes/Admin/class-setup-wizard.php:517
+msgid "Continue Setup"
+msgstr "Kontynuuj konfigurację"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:270
+#: includes/classes/Admin/Views/class-wizard-steps.php:271
+msgid "Print"
+msgstr "Drukuj"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:262
+#: includes/classes/Admin/Views/class-wizard-steps.php:266
+#: includes/classes/Admin/Views/class-wizard-steps.php:267
+msgid "Download"
+msgstr "Pobierz"
+
+#: includes/classes/class-wp2fa.php:148
+#: includes/classes/Utils/class-white-label.php:137
+msgid "Here are your backup codes:"
+msgstr "Oto twoje kody zapasowe:"
+
+#: includes/classes/class-wp2fa.php:148
+#: includes/classes/Utils/class-white-label.php:137
+msgid "Backup codes generated"
+msgstr "Wygenerowane kody zapasowe"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:160
+#: includes/classes/Admin/Views/class-wizard-steps.php:165
+#: includes/classes/Admin/Views/class-wizard-steps.php:166
+#: includes/classes/Admin/Views/class-wizard-steps.php:206
+#: includes/classes/Admin/Views/class-wizard-steps.php:207
+msgid "I’ll generate them later"
+msgstr "Wygeneruję je później"
+
+#: includes/classes/class-wp2fa.php:147
+#: includes/classes/Utils/class-white-label.php:136
+msgid "It is recommended to generate and print some backup codes in case you lose access to your primary 2FA method."
+msgstr "Zaleca się wygenerowanie i wydrukowanie kilku kodów zapasowych na wypadek utraty dostępu do podstawowej metody uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:153
+#: includes/classes/Admin/Views/class-wizard-steps.php:203
+msgid "Generate backup codes"
+msgstr "Generuj kody zapasowe"
+
+#: includes/classes/class-wp2fa.php:145 includes/classes/class-wp2fa.php:146
+#: includes/classes/Utils/class-white-label.php:134
+#: includes/classes/Utils/class-white-label.php:135
+msgid "Congratulations! You have enabled two-factor authentication for your user. You’ve just helped towards making this website more secure!"
+msgstr "Gratulacje! Włączyłeś uwierzytelnianie dwuskładnikowe dla swojego użytkownika. Właśnie przyczyniłeś się do zwiększenia bezpieczeństwa tej witryny internetowej!"
+
+#: includes/classes/class-wp2fa.php:144 includes/classes/class-wp2fa.php:145
+#: includes/classes/class-wp2fa.php:146 includes/classes/class-wp2fa.php:165
+#: includes/classes/Utils/class-white-label.php:133
+#: includes/classes/Utils/class-white-label.php:134
+#: includes/classes/Utils/class-white-label.php:135
+#: includes/classes/Utils/class-white-label.php:154
+msgid "Your login just got more secure"
+msgstr "Twoje logowanie właśnie stało się bezpieczniejsze"
+
+#: includes/classes/Admin/class-user-profile.php:760
+msgid "Please enter the code to finalize the 2FA setup."
+msgstr "Wpisz kod, aby sfinalizować konfigurację uwierzytelniania dwuskładnikowego (2FA)."
+
+#: includes/classes/Admin/class-user-profile.php:757
+msgid "Invalid Email Authentication code."
+msgstr "Nieważny kod uwierzytelniania dwuskładnikowego."
+
+#: includes/classes/Admin/class-user-profile.php:751
+msgid "Invalid Two Factor Authentication secret key."
+msgstr "Nieważny klucz prywatny autoryzacji dwuskładnikowej."
+
+#: includes/classes/Admin/class-user-profile.php:748
+msgid "Invalid Two Factor Authentication code."
+msgstr "Nieważny kod uwierzytelniania dwuskładnikowego."
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:341
+msgid "Send me another code"
+msgstr "Wyślij kolejny kod"
+
+#: includes/classes/Admin/Methods/class-email.php:145
+msgid "Please type in the one-time code sent to your email address to finalize the setup"
+msgstr "Aby dokończyć konfigurację, wpisz jednorazowy kod otrzymany e-mailem."
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:292
+msgid "Use a different email address:"
+msgstr "Użyj innego adresu e-mail."
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:283
+msgid ")"
+msgstr ")"
+
+#: includes/classes/Admin/Methods/class-email.php:142
+msgid "Please select the email address where the one-time code should be sent:"
+msgstr "Podaj adres e-mail, na który wysyłane będą jednorazowe kody."
+
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:381
+msgid "Authentication Code:"
+msgstr "Kod uwierzytelnienia:"
+
+#: includes/classes/Admin/Methods/class-totp.php:332
+msgid "Please type in the one-time code from your chosen authentication app to finalize the setup."
+msgstr "Aby zakończyć konfigurację, wpisz jednorazowy kod ze swojej aplikacji Google Authenticator"
+
+#: includes/classes/Admin/Methods/class-email.php:145
+#: includes/classes/Admin/Methods/class-totp.php:332
+#: includes/classes/class-wp2fa.php:139 includes/classes/class-wp2fa.php:140
+#: includes/classes/class-wp2fa.php:141 includes/classes/class-wp2fa.php:142
+#: includes/classes/class-wp2fa.php:143
+#: includes/classes/Utils/class-white-label.php:128
+#: includes/classes/Utils/class-white-label.php:129
+#: includes/classes/Utils/class-white-label.php:130
+#: includes/classes/Utils/class-white-label.php:131
+#: includes/classes/Utils/class-white-label.php:132
+msgid "Almost there…"
+msgstr "Prawie gotowe..."
+
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:96
+#: includes/classes/Admin/Methods/class-email-wizard-steps.php:316
+#: includes/classes/Admin/Methods/class-totp-wizard-steps.php:258
+msgid "I'm Ready"
+msgstr "Jestem gotowy!"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:89
+#: includes/classes/Admin/Views/class-wizard-steps.php:90
+msgid "Next"
+msgstr "Następny"
+
+#: includes/classes/class-wp2fa.php:133
+#: includes/classes/Utils/class-white-label.php:122
+msgid "Only the below 2FA method is allowed on this website:"
+msgstr "Tylko poniższa metoda uwierzytelniania dwuskładnikowego (2FA) jest dozwolona na tej witrynie internetowej:"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:120
+msgid "Skip Wizard - I know how to do this"
+msgstr "Pomiń kreatora - wiem jak to zrobić"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:116
+msgid "Let’s get started!"
+msgstr "Zaczynajmy!"
+
+#: includes/classes/Admin/Views/class-wizard-steps.php:110
+msgid "Let us help you get started"
+msgstr "Pozwól nam pomóc ci zacząć"
+
+#: includes/classes/Admin/SettingsPages/class-settings-page-policies.php:204
+msgid "OK"
+msgstr "OK"
+
+#: includes/classes/Admin/class-setup-wizard.php:351
+#: includes/classes/Shortcodes/class-shortcodes.php:58
+#: includes/classes/Shortcodes/class-shortcodes.php:194
+msgid "Close Wizard"
+msgstr "Zamknij kreatora"
+
+#: includes/classes/Admin/class-setup-wizard.php:311
+msgid "WP 2FA &rsaquo; Setup Wizard"
+msgstr "WP 2FA &rsaquo; Kreator konfiguracji"
+
+#: includes/classes/Admin/class-setup-wizard.php:268
+#: includes/classes/Shortcodes/class-shortcodes.php:55
+#: includes/classes/Shortcodes/class-shortcodes.php:72
+#: includes/classes/Shortcodes/class-shortcodes.php:191
+#: includes/functions/core.php:256
+msgid "New code sent"
+msgstr "Nowy kod został wysłany"
+
+#: includes/classes/Admin/class-setup-wizard.php:267
+#: includes/classes/Shortcodes/class-shortcodes.php:54
+#: includes/classes/Shortcodes/class-shortcodes.php:71
+#: includes/classes/Shortcodes/class-shortcodes.php:190
+#: includes/functions/core.php:255
+msgid "I'm ready"
+msgstr "Jestem gotowy!"
+
+#: includes/classes/Admin/class-setup-wizard.php:266
+#: includes/classes/Shortcodes/class-shortcodes.php:53
+#: includes/classes/Shortcodes/class-shortcodes.php:70
+#: includes/classes/Shortcodes/class-shortcodes.php:189
+#: includes/functions/core.php:254
+msgid "These are the 2FA backup codes for the user"
+msgstr "Są to kody zapasowe uwierzytelniania dwuskładnikowego (2FA) dla użytkownika"
+
+#: includes/classes/Admin/class-setup-wizard.php:138
+msgid "Setup Finish"
+msgstr "Zakończenie konfiguracji"
+
+#: includes/classes/Admin/class-setup-wizard.php:127
+msgid "Welcome"
+msgstr "Witaj"
+
+#: includes/classes/Admin/class-user-notices.php:162
+#: includes/classes/Authenticator/class-login.php:291
+msgid "I'll do it later"
+msgstr "Zrobię to później"
+
+#: includes/classes/Admin/class-user-notices.php:158
+msgid "The 2FA method you were using is no longer allowed on this website. Please reconfigure 2FA using one of the supported methods."
+msgstr "Metoda uwierzytelniania dwuskładnikowego (2FA), której używałeś, nie jest już dozwolona na tej stronie. Skonfiguruj ponownie uwierzytelnianie dwuskładnikowe (2FA) przy użyciu jednej z obsługiwanych metod."
+
+#: includes/classes/Admin/class-user-notices.php:141
+msgid "Remind me on next login"
+msgstr "Przypomnij mi przy następnym logowaniu"
+
+#: includes/classes/Admin/class-user-notices.php:140
+#: includes/classes/Admin/class-user-notices.php:161
+#: includes/classes/Admin/Views/class-wizard-steps.php:359
+#: includes/classes/Authenticator/class-login.php:290
+msgid "Configure 2FA now"
+msgstr "Skonfiguruj 2FA"
+
+#. Description of the plugin
+#: wp-2fa.php
+msgid "Easily add an additional layer of security to your WordPress login pages. Enable Two-Factor Authentication for you and all your website users with this easy to use plugin."
+msgstr "Z łatwością dodaj dodatkową warstwę zabezpieczeń do swoich stron logowania WordPress. Włącz uwierzytelnianie dwuskładnikowe (2FA) dla siebie i wszystkich użytkowników witryny dzięki tej łatwej w użyciu wtyczce."
+
+#: includes/classes/Admin/class-settings-page.php:40
+#: includes/classes/Admin/class-settings-page.php:41
+#: includes/classes/Admin/class-settings-page.php:116
+#: includes/classes/Admin/class-setup-wizard.php:365
+msgid "WP 2FA"
+msgstr "WP 2FA"

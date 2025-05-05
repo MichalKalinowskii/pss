@@ -8,7 +8,7 @@ services:
       - ./wp-content:/var/www/html/wp-content
     environment:
       - WORDPRESS_DB_NAME=wordpress
-      - WORDPRESS_TABLE_PREFIX=wp_
+      - WORDPRESS_TABLE_PREFIX=portalgraczy_
       - WORDPRESS_DB_HOST=db
       - WORDPRESS_DB_USER=root
       - WORDPRESS_DB_PASSWORD=root
