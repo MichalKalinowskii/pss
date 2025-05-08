@@ -1,0 +1,163 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    background-color: #1a1a2e; /* Ciemny fioletowo-niebieski */
+    color: #e0e0e0; /* Jasnoszary dla tekstu */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    flex-direction: column; /* Umożliwia umieszczenie stopki pod kontenerem */
+}
+
+.container {
+    background-color: #2a2a3e; /* Nieco jaśniejszy niż tło body */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(76, 209, 255, 0.3); /* Neonowy niebieski cień */
+    max-width: 600px;
+    width: 90%;
+}
+
+.glitch-text {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3em; /* Zwiększono dla lepszego efektu */
+    color: #4CD1FF; /* Neonowy niebieski */
+    margin-bottom: 20px;
+    position: relative;
+    animation: glitch 1s infinite; /* Animacja glitch */
+}
+
+/* Animacja Glitch (prosta wersja) */
+@keyframes glitch {
+    0% { text-shadow: -2px -2px 0 #FF2253, 2px 2px 0 #4CD1FF; transform: translate(0,0); } /* Czerwony i niebieski */
+    25% { text-shadow: 2px 2px 0 #FF2253, -2px -2px 0 #4CD1FF; transform: translate(-1px,1px); }
+    50% { text-shadow: -2px 2px 0 #FF2253, 2px -2px 0 #4CD1FF; transform: translate(1px,-1px); }
+    75% { text-shadow: 2px -2px 0 #FF2253, -2px 2px 0 #4CD1FF; transform: translate(1px,1px); }
+    100% { text-shadow: -2px -2px 0 #FF2253, 2px 2px 0 #4CD1FF; transform: translate(-1px,-1px); }
+}
+
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2.5em;
+    color: #ff6347; /* Pomidorowy - kolor błędu */
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.message {
+    font-size: 1.2em;
+    color: #ffa500; /* Pomarańczowy dla akcentu */
+    margin-bottom: 30px;
+}
+
+.actions a {
+    display: inline-block;
+    background-color: #4CAF50; /* Zielony - typowy dla przycisków "OK" */
+    color: #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: 2px solid #388E3C; /* Ciemniejsza zielona ramka */
+}
+
+.actions a:hover {
+    background-color: #388E3C; /* Ciemniejszy zielony */
+    transform: scale(1.05); /* Lekkie powiększenie */
+}
+
+.actions a.secondary {
+    background-color: #007bff; /* Niebieski dla innych akcji */
+    border-color: #0056b3;
+}
+
+.actions a.secondary:hover {
+    background-color: #0056b3;
+}
+
+.ascii-art {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+    font-size: 0.8em;
+    color: #777; /* Szary dla ASCII art */
+    margin-top: 30px;
+    line-height: 1.2;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+/* Dla mniejszych ekranów */
+@media (max-width: 600px) {
+    .glitch-text {
+        font-size: 2.5em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    p, .message {
+        font-size: 1em;
+    }
+    .actions a {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+}
+</style>
+
+<div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
+
+        <div class="container-404-custom">
+            <div class="glitch-text">404</div>
+            <h1>Poziom Nie Istnieje!</h1>
+            <p class="message">Ups! Wygląda na to, że ta strona zniknęła jak legendarny loot albo wkradł się tu niespodziewany, niewidzialny boss!</p>
+            <p>Możliwe przyczyny tego błędu krytycznego:</p>
+            <ul>
+                <li>Adres URL mógł zostać źle wpisany (zdarza się najlepszym strategom).</li>
+                <li>Strona mogła zostać usunięta, przeniesiona w inne miejsce multiwersum lub jest aktualnie w fazie beta testów.</li>
+                <li>Link, którego użyłeś, jest prawdopodobnie przestarzały – jak dyskietka z pierwszą wersją Dooma.</li>
+            </ul>
+            <p>Nie przejmuj się, każdy czasem gubi drogę w cyfrowym świecie! Oto co możesz zrobić:</p>
+            <div class="actions">
+                <a href="index.html">Wróć do Bazy Głównej</a>
+                </div>
+            <div class="ascii-art">
+    .--'''''''''--.
+    /                \
+    |  (?)      (?)  |
+    |        ^        |
+    |  '.  _____  .'  |
+    \   `-------'   /
+    `-------------'
+    Zgubiony sygnał?
+            </div>
+        </div>
+        <footer>
+            &copy; <span id="currentYear"></span> Portal Gracza - Wszelkie prawa (i bugi) zastrzeżone.
+        </footer>
+        <script>
+            // Użyj innego ID, aby uniknąć konfliktu z potencjalnym skryptem motywu
+            if (document.getElementById('currentYearPortalGracza')) {
+                document.getElementById('currentYearPortalGracza').textContent = new Date().getFullYear();
+            }
+        </script>
+        </main></div><?php get_footer(); ?>
