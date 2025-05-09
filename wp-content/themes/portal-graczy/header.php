@@ -11,9 +11,6 @@
 <header class="bg-dark text-white py-3">
     <nav class="navbar navbar-expand-lg navbar-dark container">
         <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>">Portal dla Graczy</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <?php
             wp_nav_menu([
